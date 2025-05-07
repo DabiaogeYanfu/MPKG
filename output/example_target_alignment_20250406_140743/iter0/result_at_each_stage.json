@@ -1,0 +1,110 @@
+[
+    {
+        "index": 0,
+        "input_text": "\u949b\u5408\u91d1\u96f6\u4ef6T-6A1-4V\u9700\u8981\u7ecf\u8fc7\u8f66\u524a\u52a0\u5de5\u3002\u8be5\u96f6\u4ef6\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u4e3aRa1.6\uff0c\u4f7f\u7528CBN\u5200\u5177\u4ee5300rpm\u7684\u8f6c\u901f\u548c0.1mm/r\u7684\u8fdb\u7ed9\u7387\u8fdb\u884c\u7cbe\u52a0\u5de5\u3002\u52a0\u5de5\u8fc7\u7a0b\u4e2d\u9700\u8981\u4f7f\u7528\u5207\u524a\u6db2\u51b7\u5374\uff0c\u5207\u524a\u6df1\u5ea6\u63a7\u5236\u57280.5mm\u4ee5\u5185\u3002",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u6750\u6599",
+                "T-6A1-4V"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u52a0\u5de5\u5de5\u5e8f",
+                "\u8f66\u524a\u52a0\u5de5"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42",
+                "Ra1.6"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u4f7f\u7528",
+                "CBN\u5200\u5177"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u4e3b\u8f74\u8f6c\u901f",
+                "300rpm"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u8fdb\u7ed9\u7387",
+                "0.1mm/r"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u51b7\u5374\u65b9\u5f0f",
+                "\u5207\u524a\u6db2"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u5207\u524a\u6df1\u5ea6",
+                "0.5mm\u4ee5\u5185"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u5c5e\u4e8e",
+                "\u7cbe\u52a0\u5de5"
+            ]
+        ],
+        "schema_definition": {
+            "\u5207\u524a\u6df1\u5ea6": "\u4e3b\u4f53\u5b9e\u4f53\u7684\u52a0\u5de5\u8fc7\u7a0b\u4e2d\uff0c\u5207\u524a\u7684\u6df1\u5ea6\u4e3a\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u6570\u503c\u3002",
+            "\u8fdb\u7ed9\u7387": "\u4e3b\u4f53\u5b9e\u4f53\u7684\u52a0\u5de5\u8fc7\u7a0b\u4e2d\uff0c\u8fdb\u7ed9\u7684\u901f\u5ea6\u4e3a\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u6570\u503c\u3002",
+            "\u5c5e\u4e8e": "\u4e3b\u4f53\u5b9e\u4f53\u5c5e\u4e8e\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u52a0\u5de5\u7c7b\u578b\u3002",
+            "\u51b7\u5374\u65b9\u5f0f": "\u4e3b\u4f53\u5b9e\u4f53\u7684\u52a0\u5de5\u8fc7\u7a0b\u4e2d\uff0c\u4f7f\u7528\u4e86\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u51b7\u5374\u65b9\u5f0f\u3002",
+            "\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42": "\u4e3b\u4f53\u5b9e\u4f53\u7684\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u4e3a\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u6570\u503c\u3002",
+            "\u6750\u6599": "\u4e3b\u4f53\u5b9e\u4f53\u662f\u7531\u5ba2\u4f53\u5b9e\u4f53\u6750\u6599\u5236\u6210\u7684\u3002",
+            "\u52a0\u5de5\u5de5\u5e8f": "\u4e3b\u4f53\u5b9e\u4f53\u9700\u8981\u7ecf\u8fc7\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u52a0\u5de5\u5de5\u5e8f\u3002",
+            "\u4e3b\u8f74\u8f6c\u901f": "\u4e3b\u4f53\u5b9e\u4f53\u7684\u52a0\u5de5\u8fc7\u7a0b\u4e2d\uff0c\u4e3b\u8f74\u7684\u65cb\u8f6c\u901f\u5ea6\u4e3a\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u6570\u503c\u3002",
+            "\u4f7f\u7528": "\u4e3b\u4f53\u5b9e\u4f53\u5728\u52a0\u5de5\u8fc7\u7a0b\u4e2d\u4f7f\u7528\u4e86\u5ba2\u4f53\u5b9e\u4f53\u6307\u5b9a\u7684\u5de5\u5177\u6216\u6750\u6599\u3002"
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {'\u52a0\u5de5\u65b9\u6cd5': 0.7009409, '\u4f7f\u7528\u5200\u5177': 0.658387, '\u52a0\u5de5\u5de5\u5e8f': 0.65190303, '\u64cd\u4f5c\u4eba\u5458': 0.6518443, '\u4f7f\u7528\u8bbe\u5907': 0.64514834}, {}, {'\u5207\u524a\u901f\u5ea6': 0.6605257, '\u8fdb\u7ed9\u91cf': 0.63827246, '\u4e3b\u8f74\u8f6c\u901f': 0.62558216, '\u52a0\u5de5\u5de5\u5e8f': 0.619508, '\u5207\u524a\u6df1\u5ea6': 0.6151431}, {}, {}, {'\u52a0\u5de5\u65b9\u6cd5': 0.6511623, '\u4f7f\u7528\u8bbe\u5907': 0.6049579, '\u70ed\u5904\u7406\u65b9\u5f0f': 0.5986097, '\u5207\u524a\u6df1\u5ea6': 0.59314775, '\u4f7f\u7528\u5200\u5177': 0.58973724}]",
+        "schema_canonicalizaiton": [
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u6750\u6599",
+                "T-6A1-4V"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u52a0\u5de5\u5de5\u5e8f",
+                "\u8f66\u524a\u52a0\u5de5"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42",
+                "Ra1.6"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u4f7f\u7528\u5200\u5177",
+                "CBN\u5200\u5177"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u4e3b\u8f74\u8f6c\u901f",
+                "300rpm"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u8fdb\u7ed9\u91cf",
+                "0.1mm/r"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u51b7\u5374\u65b9\u5f0f",
+                "\u5207\u524a\u6db2"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u5207\u524a\u6df1\u5ea6",
+                "0.5mm\u4ee5\u5185"
+            ],
+            null
+        ]
+    }
+]

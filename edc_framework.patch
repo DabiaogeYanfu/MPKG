@@ -1,0 +1,28 @@
+--- edc/edc_framework.py.orig
++++ edc/edc_framework.py
+@@ -1,4 +1,5 @@
+ # 添加必要的导入
++import os
+ from transformers import AutoModelForCausalLM, AutoTokenizer
+ from sentence_transformers import SentenceTransformer
+ 
+@@ -154,8 +155,20 @@
+     def load_model(self, model_name: str, model_type: str):
+         if model_type == "hf":
+             model, tokenizer = (
+-                AutoModelForCausalLM.from_pretrained(model_name, device_map="auto"),
+-                AutoTokenizer.from_pretrained(model_name),
++                AutoModelForCausalLM.from_pretrained(
++                    model_name,
++                    device_map="auto",
++                    local_files_only=True,
++                    trust_remote_code=True
++                ),
++                AutoTokenizer.from_pretrained(
++                    model_name,
++                    local_files_only=True,
++                    trust_remote_code=True
++                ),
+             )
+             return model, tokenizer
+         elif model_type == "sts":

@@ -1,0 +1,478 @@
+Mechanical Processing,Method of processing workpieces using mechanical force
+Forming Process,Method of deforming or separating raw materials without cutting
+Cutting Process,Method of removing excess material from workpiece using cutting tools
+Turning,Cutting method where workpiece rotates as primary motion while cutting tool performs feed motion
+Milling,Cutting method where milling cutter rotates as primary motion while workpiece or cutter performs feed motion
+Planing,Cutting method using planing tool in horizontal reciprocating motion relative to workpiece
+Drilling,Method of making holes using drill bits or reaming tools
+Broaching,Method of removing thin metal layer from hole wall to improve dimensional accuracy and reduce surface roughness
+Boring,Cutting method where boring tool rotates as primary motion while workpiece or tool performs feed motion
+Slotting,Cutting method using vertical reciprocating motion of slotting tool relative to workpiece
+Drawing,Method of processing internal or external surfaces using drawing tool
+Pushing,Method of processing internal surfaces using pushing tool
+Shaping,Method of cutting tool back surfaces to obtain rear and back angles
+Scraping,Method of removing thin surface layer using scraping tool
+Grinding,Method of processing workpiece surface using abrasive tools at high linear speed
+Honing,Precision finishing method removing extremely thin surface layer using honing tools and abrasives
+Superfinishing,Precision finishing method using fine-grained abrasive tools with very light pressure and combined reciprocating and slow longitudinal feed motion
+Polishing,"Method of obtaining bright and smooth surface using mechanical, chemical or electrochemical effects"
+Extrusion,Method of forming metal blanks or finishing surfaces by applying pressure with extrusion tools
+Rolling,Method of forming metal blanks or finishing surfaces by applying pressure with rolling tools
+Shot Blasting,Method of surface hardening and cleaning by high-speed impact of small diameter shots propelled by compressed air or centrifugal force
+Sand Blasting,"Method of surface cleaning, rust removal or roughening using high-speed sand particles"
+Cold Working,Method of processing metal sheets and sections into various products without significantly changing cross-sectional characteristics
+Stamping,Method of processing sheet metal through separation or forming
+Riveting,Non-detachable connection formed using rivets
+Bonding,Connection formed using adhesives
+Bench Work,Various manual processing methods mainly using hand tools on workbench
+Electrical Processing,Method of direct processing using electrical energy
+EDM (Electrical Discharge Machining),Method of processing using pulse discharge erosion between tool electrode and workpiece in specific medium
+ECM (Electrochemical Machining),Method of processing using anodic dissolution of metal workpiece in electrolyte
+Electron Beam Processing,Method of processing by bombarding workpiece with high-density electron beam generated in vacuum conditions
+Ion Beam Processing,Method of processing using high-energy ion beam accelerated and focused in vacuum
+Plasma Processing,"Method of processing using high-temperature, high-speed plasma to melt and vaporize local metal"
+Electroforming,Method of reproducing metal products using electrodeposition
+Laser Processing,"Method of processing using high power density laser beam for drilling, etching, cutting or welding"
+Ultrasonic Processing,Method of processing using ultrasonic vibration tool with abrasive slurry
+High-Speed Energy Forming,"Method of forming using instantaneous release of chemical, electrical or mechanical energy"
+Assembly,Technical process of fitting and joining parts or components into semi-finished or finished products
+Operation,Portion of technological process continuously completed on one or several workpieces by one worker or group at one workplace
+Setup,Portion of operation completed with one workpiece (or assembly unit) mounting
+Pass,Portion of operation continuously completed under unchanged processing surface (or assembly joining surface) and tool conditions
+Auxiliary Step,"Portion of operation continuously completed by human and/or equipment, necessary but not changing workpiece shape, dimension or surface roughness"
+Working Stroke,Portion of step completed by one feed motion of tool relative to workpiece at processing feed rate
+Process Preparation,"Series of technological work conducted before product manufacturing, including product drawing analysis, process planning, documentation preparation, tooling design, and production organization planning"
+Process Testing,"Tests conducted to verify feasibility of processing methods, parameters, and material machinability"
+Process Verification,Verification of process design rationality through trial production
+Process Management,"Scientific planning, organization, and control of all technological work"
+Process Equipment,"Main production equipment for completing technological processes, such as machine tools, heating furnaces, and plating tanks"
+Process Tooling,"Collection of tools used in manufacturing process, including cutting tools, fixtures, dies, measuring tools, inspection tools, and workbench tools"
+Process System,"Unified system formed by machine tools, cutting tools, fixtures, and workpieces in mechanical processing"
+Process Discipline,Technological order that personnel must follow during production
+Group Technology,"Classification and grouping of products, components, and parts based on similarity criteria for rational organization of design, manufacturing, and management"
+Automated Production,Production process where mechanical actions replace manual operations to automatically complete various tasks
+NC Machining,Method of machining parts by controlling tool and workpiece movements through numerical programs input into machine control system
+Adaptive Control,Control system that automatically adjusts processing parameters based on predetermined evaluation criteria
+Process Optimization,Selection of optimal process parameters based on one or more criteria
+Process Database,Collection of technological data stored in computer memory for shared use
+Production Program,Plan specifying product quantities and schedules for enterprise production
+Production Type,"Classification of enterprise production specialization level, generally divided into mass, batch, and single-piece production"
+Production Batch,Quantity of same product or part produced or input in one batch
+Production Cycle,Calendar time from raw material input to product completion in one cycle
+Production Takt Time,Time interval between consecutive finished products in flow production
+Raw Materials,Material input into production process to create new products
+Main Materials,Materials that constitute the physical product
+Auxiliary Materials,Materials that assist production but do not become part of the final product
+Technology,Methods and processes of converting raw materials and semi-finished products into products
+Mechanical Manufacturing Technology,Collective term for various mechanical manufacturing methods and processes
+Typical Process,Unified processing methods developed for groups of parts with similar structure and technological characteristics
+Product Structure Technology,Manufacturability and maintainability of designed products while meeting functional requirements
+Part Structure Technology,Manufacturability of designed parts while meeting functional requirements
+Processability Analysis,Analysis of product structure manufacturability during technical design phase
+Processability Review,Comprehensive review of product and part structure manufacturability during working drawing phase
+Machinability,Ease of material processing under given production conditions
+Production Process,Complete process of converting raw materials into finished products
+Technological Process,"Process of changing production object shape, dimensions, relative position, or properties into finished or semi-finished products"
+Process Documentation,"Technical documents guiding operation, production, and process management"
+Process Plan,Guiding document outlining technological preparation tasks based on product design requirements and production capabilities
+Process Route,Sequential order of departments or operations for product and component manufacturing from raw material to finished product packaging
+Process Specification,Technical document specifying manufacturing process and operation methods for products or components
+Process Design,Process of preparing various technological documents and designing process equipment
+Process Elements,Main factors related to technological process
+Process Standards,Series of unified technical requirements for technological processes
+Process Parameters,Related quantities that need to be selected or controlled in technological process to achieve expected technical indicators
+Casting,"Method of producing castings by pouring, injecting, or drawing molten metal into mold cavities and allowing it to solidify"
+Forging,Method of processing metal billets or ingots through local or complete plastic deformation under processing equipment and tool action
+Heat Treatment,"Method of changing internal structure or surface composition of solid metals or alloys through heating, holding, and cooling in specific medium"
+Surface Treatment,"Method of modifying mechanical, physical, or chemical properties of workpiece surface layer"
+Surface Coating,Method of forming coating on workpiece surface using specified foreign materials
+Powder Metallurgy,Method of producing various products through compacting and sintering metal powders or their mixtures with non-metallic powders
+Injection Molding,Method of producing various products by heating powder or granular plastics to flowing state and injecting into mold under pressure
+Cutting Power,Power consumed to overcome cutting forces during machining
+Cutting Heat,"Heat generated due to material deformation, separation, and friction between tool and workpiece during cutting"
+Cutting Temperature,Temperature in the cutting zone during machining process
+Cutting Fluid,Liquid used to improve cutting process effectiveness
+Rapid Traverse,Portion of operation where tool moves at rapid feed rate relative to workpiece without cutting
+Workstation,Position occupied by workpiece (or assembly unit) and movable parts relative to tools or equipment after one fixture setup
+Datum,"Points, lines, or surfaces used to establish geometric relationships between features on production objects"
+Design Datum,Reference points used in design drawings
+Process Datum,Reference points used in manufacturing process
+Operation Datum,"Reference points used in operation sheets for determining dimensions, shape, and position of machined surfaces"
+Locating Datum,Reference points used for workpiece positioning during machining
+Measurement Datum,Reference points used during measurement
+Assembly Datum,Reference points used for determining relative positions of parts or components in product assembly
+Auxiliary Datum,Special locating surfaces designed on workpiece for process requirements
+Process Hole,"Holes added to workpiece for processing, measuring, or assembly purposes"
+Process Boss,Bosses added to workpiece for process requirements
+Process Dimension,Dimensions specified in process documentation or operation sheets
+Operation Dimension,Dimensions to be achieved in specific operation
+Dimension Chain,Combination of interrelated dimensions arranged in specific order
+Process Dimension Chain,Chain of related process dimensions during manufacturing
+Total Machining Allowance,Difference between raw material dimension and design dimension
+Operation Allowance,Difference between dimensions of adjacent operations
+Approach Length,Additional length required for tool approach
+Exit Length,Additional length required for tool exit
+Process Allowance,Additional dimension added to workpiece or blank for processing needs
+Cutting Parameters,"Collective term for cutting speed, feed rate, and cutting depth in machining process"
+Cutting Speed,Instantaneous speed of cutting edge point relative to workpiece surface in primary motion direction
+Spindle Speed,Number of machine spindle rotations per unit time
+Reciprocating Frequency,Number of consecutive cutting motions completed per unit time on reciprocating machine tools
+Back-off Distance,Perpendicular distance between machined and to-be-machined surfaces
+Feed Rate,Relative movement between tool and workpiece per revolution or reciprocation
+Feed Speed,Relative displacement between tool and workpiece in feed direction per unit time
+Cutting Force,Resistance force generated by workpiece material during cutting
+Production Quota,Specified quantity of acceptable products per worker in unit time under given conditions
+Time Standard,Specified time required to produce one product or complete one operation under given conditions
+Operation Time,"Time directly spent on manufacturing products or components, including basic and auxiliary time"
+Basic Time,"Time spent directly changing dimensions, shape, position, surface condition, or material properties"
+Auxiliary Time,Time spent on necessary auxiliary actions for technological process
+Workplace Organization Time,"Time spent managing workplace (tool change, lubrication, chip removal, tool organization)"
+Rest and Personal Time,Time allocated for worker rest and physiological needs during shift
+Setup and Conclusion Time,Time spent preparing for and concluding production of batch of products or components
+Material Consumption Standard,Total material weight required to produce one unit under given conditions
+Process Material Loss,"Material loss due to process requirements like casting gates, risers, forging flash, bar ends"
+Material Utilization Rate,Percentage ratio of product net weight to material consumption standard
+Equipment Utilization Rate,Percentage ratio of actual equipment working time to available time
+Machining Error,Deviation of actual geometric parameters from ideal parameters after machining
+Machining Accuracy,Degree of conformity between actual and ideal geometric parameters after machining
+Economical Accuracy,Achievable accuracy under normal conditions without extending processing time
+Surface Roughness,Microscopic geometric characteristics of machined surface formed by processing method
+Process Capability,Range of normal process error variation in stable condition
+Process Capability Index,Degree to which process capability meets accuracy requirements
+Blank,Production object prepared for further processing based on part or product requirements for shape and process dimensions
+Forging,Workpiece or blank obtained through metal forging deformation
+Casting,Workpiece or blank obtained by pouring molten metal into mold and solidification
+Welded Assembly,Workpiece or blank manufactured by welding methods
+Stamped Part,Workpiece or blank manufactured by stamping methods
+Workpiece,Object being processed during manufacturing
+Critical Component,Components with high technical requirements and processing difficulty
+Outsourced Part,Components manufactured partially or completely by other enterprises based on design documentation provided
+Test Specimen,"Specially made samples for testing material mechanical, physical, chemical properties, microstructure, or machinability"
+Process Auxiliary Part,Auxiliary parts specially made for process requirements
+Work in Progress,"Products undergoing processing, assembly, or awaiting inspection in an enterprise"
+Semi-finished Product,Products that have completed one or more production stages and are stored for further processing or assembly after quality inspection
+Finished Product,Materials that have completed all processing and production stages
+Conforming Product,Products that meet standard requirements after inspection
+Non-conforming Product,Products that fail to meet standard requirements after inspection
+Scrap,Non-conforming products that cannot be repaired or downgraded for use
+Material Consumption Standard Detail Sheet,"Technical document listing names, grades, specifications, and quantities of materials needed for manufacturing each product component"
+Material Consumption Standard Summary Sheet,Technical document summarizing all materials listed in the detail sheet per product unit
+Process Equipment Validation Certificate,Technical document recording process equipment validation results
+Process Test Report,"Technical document describing new process method trials, analysis, and recommendations"
+Process Summary Report,Technical document describing trial production experience and recommendations after new product trial production
+Process Documentation Index,List of all process documents for a product
+Process Change Notice,Communication and verification document for process document changes
+Temporary Process Deviation Notice,Communication document allowing temporary deviation from standard process due to objective constraints
+Process Route Sheet,Technical document describing product or component process routes
+Workshop Division of Labor Detail,List of components to be processed or assembled by each workshop
+Process Operation Card,Technical document briefly describing product or component processing or assembly sequence by operation
+Process Sheet,"Technical document detailing operation numbers, names, content, parameters, requirements, and equipment for a specific process phase"
+Operation Sheet,"Technical document detailing each step within an operation, including operation sketches, parameters, requirements, and equipment"
+Standard Process Operation Card,Standard process operation card applicable to a group of components with similar process characteristics
+Standard Process Sheet,Standard process sheet applicable to a group of components with similar structure and process characteristics
+Standard Operation Sheet,Standard operation sheet applicable to a group of components with similar structure and process characteristics
+Setup Sheet,"Technical document for adjusting automatic, semi-automatic, or gear processing machines"
+Work Instruction,Basic operation procedures common to a specific trade
+Process Illustration,Drawings or charts attached to process documentation illustrating processing or assembly
+Blank Drawing,"Drawing showing blank material, shape, dimensions, and technical requirements"
+Assembly System Diagram,Diagram showing assembly relationships and sequences between product components
+Special Process Equipment Design Specification,Reference document from process personnel for special process equipment design
+Special Equipment Design Specification,Reference document from process personnel for special equipment design
+Modular Fixture Assembly Specification,Reference document for modular fixture assembly
+Critical Component List,"Technical document listing drawing numbers, names, and critical features of all critical components"
+Outsourced Part List,"Technical document listing drawing numbers, names, and processing content of all outsourced parts"
+Special Process Equipment List,"Technical document listing numbers, names, and associated component numbers of all special process equipment"
+Purchased Tool List,"Technical document listing names, specifications, accuracy, and associated component numbers of all purchased tools"
+Enterprise Standard Tool List,"Technical document listing names, specifications, accuracy, and associated component numbers of all enterprise standard tools"
+Modular Fixture List,"Technical document listing numbers, names, and associated component numbers of all modular fixtures"
+Workstation Equipment List,"Technical document listing numbers, names, and associated component numbers of all workstation equipment"
+Special Process Equipment,Process equipment designed for specific product
+Universal Process Equipment,Process equipment that can be used for multiple products
+Standard Process Equipment,Process equipment that has been standardized
+Fixture,Device used to hold and guide workpieces or tools
+Die/Mold,Device used to define the shape and dimensions of production objects
+Cutting Tool,Cutting edge tool capable of removing material from workpiece
+Measuring Instrument,"Tools, instruments, and gauges used for direct or indirect measurement"
+Auxiliary Tool,Tools used to connect cutting tools to machine tools
+Bench Work Tools,Collective term for various hand tools used in bench work
+Workstation Equipment,Various devices used to store workpieces or tools at workstations
+Rolling Hole,Hole produced by rolling process
+Punched Hole,Hole created by punch press in workpiece or sheet material
+Laser Drilling,Hole produced using laser processing principles
+EDM Drilling,Hole produced using electrical discharge machining principles
+Ultrasonic Drilling,Hole produced using ultrasonic machining principles
+Electron Beam Drilling,Hole produced using electron beam processing principles
+Ground Hole,Hole produced by grinding method
+Scraped Hole,Hole produced by scraping method
+Extruded Hole,Hole produced by extrusion method
+Turned Outside Diameter,External cylindrical surface produced by turning
+Ground Outside Diameter,External cylindrical surface produced by grinding
+Honed Outside Diameter,External cylindrical surface produced by honing
+Lapped Outside Diameter,External cylindrical surface produced by lapping
+Polished Outside Diameter,External cylindrical surface produced by polishing
+Rolled Outside Diameter,External cylindrical surface produced by rolling
+Turned Plane,Plane surface produced by turning
+Milled Plane,Plane surface produced by milling
+Planed Plane,Plane surface produced by planing
+Ground Plane,Plane surface produced by grinding
+Scraped Plane,Plane surface produced by scraping
+Broached Plane,Plane surface produced by broaching
+Spotfaced Plane,Plane surface perpendicular to hole produced by spot facing
+Lapped Plane,Plane surface produced by lapping
+Polished Plane,Plane surface produced by polishing
+Turned Groove,Groove produced by turning
+Milled Groove,Groove or keyway produced by milling
+Planed Groove,Groove produced by planing
+Broached Groove,Groove or keyway produced by broaching
+Workpiece Setup,Process of positioning and clamping workpiece on machine or fixture
+Positioning,Process of establishing correct position of workpiece
+Clamping,Operation of securing workpiece after positioning
+True Positioning,"Process of finding correct position for marking, machining, or assembly using tools or instruments"
+Tool Setting,Process of setting correct position of cutting edge relative to workpiece or fixture
+Rough Machining,Process of removing large amounts of material with lower precision and surface finish
+Semi-finishing,Machining process between rough and finish machining
+Finish Machining,Process of removing small amounts of material with higher precision and surface finish
+Surface Finishing,Post-finishing process to reduce surface roughness or strengthen surface without material removal
+Ultra-precision Machining,Machining technology achieving dimensional and form accuracy within 0.1μm
+Trial Cut Method,"Method of achieving required dimension through repeated trial cuts, measurements, and adjustments"
+Adjustment Method,Method of maintaining preset tool position for batch processing
+Fixed-size Tool Method,Method of achieving workpiece dimensions using tools with corresponding dimensions
+Generation Method,Method of machining using generating motion between tool and workpiece
+Form Cutting Method,Method of machining using form tools
+Profile Method,Method of machining using profile templates
+Matching Method,Method of machining one part based on another or machining multiple parts together
+Special Process Equipment,Process equipment designed for specific product
+Universal Process Equipment,Process equipment that can be used for multiple products
+Standard Process Equipment,Process equipment that has been standardized
+Fixture,Device used to hold and guide workpieces or tools
+Die/Mold,Device used to define the shape and dimensions of production objects
+Cutting Tool,Cutting edge tool capable of removing material from workpiece
+Measuring Instrument,"Tools, instruments, and gauges used for direct or indirect measurement"
+Auxiliary Tool,Tools used to connect cutting tools to machine tools
+Bench Work Tools,Collective term for various hand tools used in bench work
+Workstation Equipment,Various devices used to store workpieces or tools at workstations
+Rolling Hole,Hole produced by rolling process
+Punched Hole,Hole created by punch press in workpiece or sheet material
+Laser Drilling,Hole produced using laser processing principles
+EDM Drilling,Hole produced using electrical discharge machining principles
+Ultrasonic Drilling,Hole produced using ultrasonic machining principles
+Electron Beam Drilling,Hole produced using electron beam processing principles
+Ground Hole,Hole produced by grinding method
+Scraped Hole,Hole produced by scraping method
+Extruded Hole,Hole produced by extrusion method
+Turned Outside Diameter,External cylindrical surface produced by turning
+Ground Outside Diameter,External cylindrical surface produced by grinding
+Honed Outside Diameter,External cylindrical surface produced by honing
+Lapped Outside Diameter,External cylindrical surface produced by lapping
+Polished Outside Diameter,External cylindrical surface produced by polishing
+Rolled Outside Diameter,External cylindrical surface produced by rolling
+Turned Plane,Plane surface produced by turning
+Milled Plane,Plane surface produced by milling
+Planed Plane,Plane surface produced by planing
+Ground Plane,Plane surface produced by grinding
+Scraped Plane,Plane surface produced by scraping
+Broached Plane,Plane surface produced by broaching
+Spotfaced Plane,Plane surface perpendicular to hole produced by spot facing
+Lapped Plane,Plane surface produced by lapping
+Polished Plane,Plane surface produced by polishing
+Turned Groove,Groove produced by turning
+Milled Groove,Groove or keyway produced by milling
+Planed Groove,Groove produced by planing
+Broached Groove,Groove or keyway produced by broaching
+Workpiece Setup,Process of positioning and clamping workpiece on machine or fixture
+Positioning,Process of establishing correct position of workpiece
+Clamping,Operation of securing workpiece after positioning
+True Positioning,"Process of finding correct position for marking, machining, or assembly using tools or instruments"
+Tool Setting,Process of setting correct position of cutting edge relative to workpiece or fixture
+Rough Machining,Process of removing large amounts of material with lower precision and surface finish
+Semi-finishing,Machining process between rough and finish machining
+Finish Machining,Process of removing small amounts of material with higher precision and surface finish
+Surface Finishing,Post-finishing process to reduce surface roughness or strengthen surface without material removal
+Ultra-precision Machining,Machining technology achieving dimensional and form accuracy within 0.1μm
+Trial Cut Method,"Method of achieving required dimension through repeated trial cuts, measurements, and adjustments"
+Adjustment Method,Method of maintaining preset tool position for batch processing
+Fixed-size Tool Method,Method of achieving workpiece dimensions using tools with corresponding dimensions
+Generation Method,Method of machining using generating motion between tool and workpiece
+Form Cutting Method,Method of machining using form tools
+Profile Method,Method of machining using profile templates
+Matching Method,Method of machining one part based on another or machining multiple parts together
+Thread Turning,Process of cutting threads using a threading tool
+Thread Hobbing,Process of cutting threads using a thread hob
+Thread Milling,Process of cutting threads using a thread milling cutter
+Whirlwind Thread Milling,Process of cutting threads using a whirlwind milling head
+Thread Rolling,Process of forming threads using thread rolling dies
+Thread Chasing,Process of forming threads using thread chasing dies
+Thread Pulling,Process of cutting internal threads using a thread pull tap
+Thread Tapping,Process of cutting internal threads using a tap
+Thread Die Cutting,Process of cutting external threads using a die head
+Thread Grinding,Process of grinding threads using grinding wheels
+Thread Honing,Process of honing threads using honing tools
+Thread Lapping,Process of lapping threads using lapping tools
+Gear Milling,Process of cutting gear teeth using milling cutters
+Gear Shaping,Process of cutting gear teeth using shaping tools
+Gear Broaching,Process of cutting internal or external gear teeth using broaching tools
+Gear Hobbing,Process of cutting gears using hobbing method
+Gear Shaving,Process of finishing gear teeth using shaving cutters
+Gear Honing,Process of finishing gear teeth using honing wheels
+Gear Grinding,Process of grinding gear teeth using grinding wheels
+Gear Pulling,Process of cutting gear teeth using pulling tools
+Gear Lapping,Process of finishing gear teeth using lapping tools
+Gear Rolling,Process of forming gear teeth using rolling method
+Gear Pressing,Process of forming gear teeth using pressing method
+Gear Punching,Process of forming gear teeth using punching dies
+Cast Gear,Process of forming gear teeth using casting method
+Form Turning,Process of machining form surfaces using form turning tools
+Form Milling,Process of machining form surfaces using form milling cutters
+Form Planing,Process of machining form surfaces using form planing tools
+Form Grinding,Process of machining form surfaces using form grinding wheels
+Form Polishing,Process of polishing form surfaces
+EDM Form Processing,Process of machining form surfaces using EDM method
+Knurling,Process of creating a patterned surface using knurling tools
+Chamfering,Process of creating angled surfaces on edges
+Corner Rounding,Process of creating rounded corners on edges
+Center Drilling,Process of drilling center holes for positioning
+Center Grinding,Process of grinding center holes using tapered grinding wheels
+Center Lapping,Process of lapping center holes for precision
+Center Pressing,Process of forming center holes using hardened pressing tools
+Cutting Off,Process of separating workpiece into multiple pieces
+Material Layout,Process of arranging parts layout on raw material for optimal usage
+Template Making,Process of creating 1:1 scale templates on layout table
+Development,Process of flattening 3D surfaces onto a single plane
+Material Marking,Process of marking cutting lines on material using templates
+Cutting,Process of dividing material into required shapes and sizes
+Shearing,Process of cutting material using opposing cutting edges
+Bending,Process of forming material into required shapes
+Press Bending,Process of bending material using press tools
+Draw Bending,Process of bending material under tension
+Through Heating Treatment,Heat treatment process where the entire workpiece is heated through
+Chemical Heat Treatment,"Process where metal parts are heated in an active medium to allow elements to diffuse into surface layers, changing chemical composition and properties"
+Compound Layer,Outermost layer formed during chemical heat treatment consisting of compounds between diffusing elements and base metal
+Diffusion Layer,Layer where diffusing elements remain within solid solution or form compounds on base metal surface
+Surface Heat Treatment,Heat treatment applied only to the surface layer of workpiece
+Local Heat Treatment,Heat treatment applied to specific areas or sections of workpiece
+Preliminary Heat Treatment,Initial heat treatment to prepare material structure for subsequent processing
+Vacuum Heat Treatment,Heat treatment performed under sub-atmospheric pressure
+Bright Heat Treatment,Heat treatment where surface remains oxide-free and bright
+Magnetic Field Heat Treatment,Heat treatment performed under magnetic field influence
+Controlled Atmosphere Heat Treatment,Heat treatment performed in furnace with controllable atmosphere to prevent unwanted reactions
+Electrolytic Heat Treatment,Heat treatment using liquid electrolyte for heating and cooling
+Ion Bombardment Heat Treatment,Heat treatment using glow discharge in sub-atmospheric pressure
+Stabilization Treatment,Treatment to stabilize structure and minimize dimensional changes
+Thermomechanical Treatment,Combined process of plastic deformation and heat treatment to improve mechanical properties
+Heat Treatment Cycle,Time-temperature relationship during heat treatment process
+Heating Schedule,Specified time-temperature parameters during heating phase
+Preheating,Initial heating at lower temperature to prevent distortion and cracking
+Heating Rate,Average rate of temperature increase during heating
+Spray Quenching,Cooling method using liquid spray on heated workpiece
+Through Heating,Heating method achieving uniform temperature throughout
+Surface Heating,Heating limited to surface layer only
+Controlled Cooling,Cooling according to predetermined schedule
+Direct Heating,Heating creating temperature gradient in workpiece
+Local Heating,Heating applied to specific areas only
+Progressive Heating,Heating with relative movement between heat source and workpiece
+Rotational Heating,Heating with rotating workpiece or heat source
+Pulse Heating,"Heating using short, repeated energy pulses"
+Induction Heating,Heating using electromagnetic induction
+Effective Thickness,Critical wall thickness determining heating time for quality assurance
+Austenitization,Heating steel above critical temperature to achieve austenitic structure
+Controlled Atmosphere,Furnace atmosphere with controlled composition for specific treatment purposes
+Endothermic Atmosphere,Atmosphere produced by incomplete combustion in endothermic generator
+Exothermic Atmosphere,Atmosphere produced by controlled mixture of fuel gas and air
+Protective Atmosphere,Atmosphere preventing oxidation of heated metal
+Neutral Atmosphere,Atmosphere not reacting with heated metal surface
+Oxidizing Atmosphere,Atmosphere causing oxidation of metal surface
+Reducing Atmosphere,Atmosphere capable of reducing metal oxides
+Full Annealing,Heat treatment involving slow cooling from austenitizing temperature
+Recrystallization Annealing,Annealing to eliminate strain hardening through recrystallization
+Isothermal Annealing,Annealing with temperature hold in pearlite transformation range
+Spheroidizing Annealing,Annealing to achieve spheroidal carbide structure
+Hydrogen Removal Annealing,Annealing to prevent hydrogen embrittlement and flaking
+Bright Annealing,Annealing in protective atmosphere to maintain bright surface
+Inter-operational Annealing,Intermediate annealing between processing steps
+Homogenization Annealing,High-temperature annealing to reduce chemical segregation
+Graphitizing Annealing,Annealing to decompose carbides into graphite in cast iron
+Stress Relief Annealing,Annealing to reduce or eliminate residual stresses
+Complete Annealing,Annealing with complete austenitization followed by slow cooling
+Incomplete Annealing,Annealing from intercritical temperature range
+Box Annealing,Annealing in sealed container with protective atmosphere
+Vacuum Annealing,Annealing under vacuum conditions
+Normalizing,"Heat treatment process where steel is heated above Ac3 or Acm, held for appropriate time, then cooled in still air"
+High-temperature Normalizing,Normalizing process performed at temperatures 100-150°C above Ac3
+Quenching,Heat treatment process involving heating above critical temperature and rapid cooling to form martensite or bainite
+Selective Quenching,Quenching process applied only to specific areas requiring hardening
+Surface Quenching,Heat treatment process where only the surface layer is quenched
+Bright Quenching,Quenching in controlled atmosphere or vacuum to maintain bright surface finish
+Water Quenching,Rapid cooling process using water as quenchant
+Oil Quenching,Cooling process using oil as quenchant
+Air Quenching,Cooling process using air as quenchant
+Interrupted Quenching,Two-stage quenching process using different cooling media
+Press Quenching,Quenching process where parts are held between dies to minimize distortion
+Spray Quenching,Cooling method using liquid spray
+Mist Quenching,Quenching using mixture of water and air spray
+Air Blast Quenching,Quenching using forced air cooling
+Salt Bath Quenching,Quenching in molten salt bath
+Quenching Depth,Distance from surface to specified hardness value
+Effective Hardening Depth,Perpendicular distance from surface to specified hardness value
+Austempering,Isothermal transformation of austenite to bainite
+Martempering,"Process of quenching to just above martensite start temperature, then air cooling"
+Intercritical Quenching,Quenching from intercritical temperature range to obtain dual-phase structure
+Self-quenching,Quenching process where part.s internal heat treats unheated portions
+Impact Quenching,Rapid heating and quenching using high-velocity cooling medium
+Electron Beam Quenching,Surface hardening using electron beam heating followed by self-quenching
+Laser Quenching,Surface hardening using laser beam heating followed by self-quenching
+Flame Quenching,Surface hardening using oxy-acetylene flame followed by rapid cooling
+Induction Quenching,Surface hardening using induced electrical currents followed by rapid cooling
+Contact Electrical Quenching,Surface hardening using electrical contact heating followed by rapid cooling
+Electrolytic Quenching,Surface hardening using electrolytic heating in solution followed by rapid cooling
+Tempering,Reheating quenched steel to temperature below critical range
+Vacuum Tempering,Tempering process conducted in vacuum environment
+Pressure Tempering,Tempering process conducted under pressure
+White Tempering,Low-temperature tempering process producing white surface layer
+Sub-zero Treatment,Cooling treatment below room temperature after quenching
+Hardenability,Material.s capability to harden under specified quenching conditions
+Quenching Sensitivity,Material.s response to different quenching rates
+Oxidation,Surface reaction with oxygen during heating
+Decarburization,Loss of carbon from surface during heating
+Scale Formation,Formation of oxide layer on surface during heating
+Quench Cracking,Cracking due to thermal and transformation stresses during quenching
+Dimensional Change,Undesired dimensional changes during heat treatment
+Shape Distortion,Unwanted changes in shape during heat treatment
+Thermal Stress,Stresses caused by temperature gradients during heating or cooling
+Transformation Stress,Stresses caused by phase transformations
+Residual Stress,Internal stresses remaining after heat treatment
+Soft Spots,Areas of insufficient hardness after quenching
+Burning,Grain boundary oxidation near melting temperature
+Overheating,Excessive grain growth due to high temperature
+Segregation,Non-uniform distribution of alloying elements
+Cold Brittleness,Reduced impact resistance at low temperatures
+Blue Brittleness,Reduced strength and ductility at 200-300°C
+Hot Brittleness,Grain boundary weakness near melting point
+Hydrogen Embrittlement,Embrittlement due to hydrogen absorption
+White Spots,Round or oval-shaped defects appearing as white spots in steel
+Carburizing,Thermochemical treatment process where carbon atoms diffuse into the surface layer of steel parts to increase carbon content and create a carbon concentration gradient
+Pack Carburizing,Carburizing process where parts are packed in solid carbonaceous compounds in a sealed container
+Paste Carburizing,Carburizing process where parts are coated with paste-form carburizing agent
+Salt Bath Carburizing,Carburizing process conducted in molten salt bath containing carburizing agents
+Gas Carburizing,Carburizing process performed in a gaseous carburizing medium
+Liquid Drop Carburizing,"Gas carburizing process where liquid hydrocarbons (benzene, alcohol, kerosene) are dripped into the furnace for decomposition"
+Ion Carburizing,Carburizing process using glow discharge in low-pressure carburizing atmosphere between workpiece (cathode) and anode
+Fluidized Bed Carburizing,Carburizing process using solid carburizing media suspended in gas stream
+Electrolytic Carburizing,Carburizing process using electric current between the workpiece (cathode) and graphite electrode (anode) in molten salt
+Vacuum Carburizing,Carburizing process conducted under sub-atmospheric pressure
+High-Temperature Carburizing,Carburizing process performed above 950°C
+Local Carburizing,Carburizing process applied only to specific areas or regions of the workpiece
+Recarburizing,Process to restore carbon content in decarburized surface layers
+Carbon Potential,"Parameter indicating the ability of carbon-containing atmosphere to change surface carbon content at specific temperature, typically expressed as equilibrium carbon content in mild steel"
+Carburized Layer,Surface layer with higher carbon content than the base material
+Carburizing Depth,Perpendicular distance from surface to specified carbon content
+Effective Case Depth,Perpendicular distance from surface to specified hardness (typically 550 HV1) after carburizing and quenching
+Nitriding,Thermochemical treatment process where nitrogen atoms diffuse into the surface layer below Ac1 temperature
+Liquid Nitriding,Nitriding process conducted in molten salt bath containing nitriding agents
+Gas Nitriding,Nitriding process performed in gaseous medium
+Ion Nitriding,Nitriding process using glow discharge in low-pressure nitrogen atmosphere between workpiece (cathode) and anode
+Single-Stage Nitriding,Nitriding process conducted at single temperature
+Multi-Stage Nitriding,Nitriding process performed at two or three different temperature stages
+Denitriding,Heat treatment process to remove excess nitrogen from nitrided surface layer
+Nitrides,Compounds formed between nitrogen and metallic elements-common examples include γ-Fe4N-ε-Fe2-3N-ζ-Fe2N
+Nitriding Potential,Parameter indicating the ability of nitrogen-containing medium to achieve specific surface nitrogen content at given temperature
+Nitriding Depth,Distance from surface to visible boundary between nitrided layer and base material

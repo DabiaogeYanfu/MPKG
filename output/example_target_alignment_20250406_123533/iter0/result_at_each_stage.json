@@ -1,0 +1,96 @@
+[
+    {
+        "index": 0,
+        "input_text": "\u949b\u5408\u91d1\u96f6\u4ef6T-6A1-4V\u9700\u8981\u7ecf\u8fc7\u8f66\u524a\u52a0\u5de5\u3002\u8be5\u96f6\u4ef6\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u4e3aRa1.6\uff0c\u4f7f\u7528CBN\u5200\u5177\u4ee5300rpm\u7684\u8f6c\u901f\u548c0.1mm/r\u7684\u8fdb\u7ed9\u7387\u8fdb\u884c\u7cbe\u52a0\u5de5\u3002\u52a0\u5de5\u8fc7\u7a0b\u4e2d\u9700\u8981\u4f7f\u7528\u5207\u524a\u6db2\u51b7\u5374\uff0c\u5207\u524a\u6df1\u5ea6\u63a7\u5236\u57280.5mm\u4ee5\u5185\u3002",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u6750\u6599",
+                "T-6A1-4V"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u52a0\u5de5\u5de5\u5e8f",
+                "\u8f66\u524a\u52a0\u5de5"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42",
+                "Ra1.6"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u4f7f\u7528",
+                "CBN\u5200\u5177"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u4e3b\u8f74\u8f6c\u901f",
+                "300rpm"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u8fdb\u7ed9\u7387",
+                "0.1mm/r"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u51b7\u5374\u65b9\u5f0f",
+                "\u5207\u524a\u6db2"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u5207\u524a\u6df1\u5ea6",
+                "0.5mm\u4ee5\u5185"
+            ]
+        ],
+        "schema_definition": {
+            "The following relations describe the meanings of the given relations in the context of the provided text": "",
+            "1. '\u6750\u6599' (material)": "The subject entity is made of or consists of the material specified by the object entity.",
+            "2. '\u52a0\u5de5\u5de5\u5e8f' (manufacturing process)": "The subject entity undergoes the manufacturing process specified by the object entity.",
+            "3. '\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42' (surface roughness requirement)": "The subject entity must meet the surface roughness requirement specified by the object entity.",
+            "4. '\u4f7f\u7528' (use)": "The subject entity is used for or with the object entity.",
+            "5. '\u4e3b\u8f74\u8f6c\u901f' (spindle speed)": "The subject entity operates at the spindle speed specified by the object entity.",
+            "6. '\u8fdb\u7ed9\u7387' (feed rate)": "The subject entity has the feed rate specified by the object entity.",
+            "7. '\u51b7\u5374\u65b9\u5f0f' (cooling method)": "The cooling method specified by the object entity is used for the subject entity.",
+            "8. '\u5207\u524a\u6df1\u5ea6' (cutting depth)": "The cutting depth of the subject entity is controlled to be within the limit specified by the"
+        },
+        "canonicalization_candidates": "[{}, {}, {}, {}, {}, {}, {}, {}]",
+        "schema_canonicalizaiton": [
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u6750\u6599",
+                "T-6A1-4V"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u52a0\u5de5\u5de5\u5e8f",
+                "\u8f66\u524a\u52a0\u5de5"
+            ],
+            [
+                "\u949b\u5408\u91d1\u96f6\u4ef6",
+                "\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42",
+                "Ra1.6"
+            ],
+            null,
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u4e3b\u8f74\u8f6c\u901f",
+                "300rpm"
+            ],
+            null,
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u51b7\u5374\u65b9\u5f0f",
+                "\u5207\u524a\u6db2"
+            ],
+            [
+                "\u8f66\u524a\u52a0\u5de5",
+                "\u5207\u524a\u6df1\u5ea6",
+                "0.5mm\u4ee5\u5185"
+            ]
+        ]
+    }
+]

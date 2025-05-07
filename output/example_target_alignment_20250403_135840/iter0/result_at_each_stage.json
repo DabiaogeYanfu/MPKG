@@ -1,0 +1,26 @@
+[
+    {
+        "index": 0,
+        "input_text": "John Doe is a student at National University of Singapore.",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "John\\_Doe",
+                "studentOf",
+                "National\\_University\\_of\\_Singapore"
+            ]
+        ],
+        "schema_definition": {
+            "studentOf": "The subject entity is a student of the educational institution specified by the object entity."
+        },
+        "canonicalization_candidates": "[{'student': 0.88655657, 'located in the administrative territorial entity': 0.7162737, 'country': 0.7015502, 'place of birth': 0.6899077, 'contains settlement': 0.68199843}]",
+        "schema_canonicalizaiton": [
+            [
+                "John\\_Doe",
+                "student",
+                "National\\_University\\_of\\_Singapore"
+            ]
+        ]
+    }
+]

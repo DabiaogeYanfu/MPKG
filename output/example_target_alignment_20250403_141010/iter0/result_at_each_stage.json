@@ -1,0 +1,92 @@
+[
+    {
+        "index": 0,
+        "input_text": "\u949b\u5408\u91d1\u96f6\u4ef6T-6A1-4V\u9700\u8981\u7ecf\u8fc7\u8f66\u524a\u52a0\u5de5\u3002\u8be5\u96f6\u4ef6\u8868\u9762\u7c97\u7cd9\u5ea6\u8981\u6c42\u4e3aRa1.6\uff0c\u4f7f\u7528CBN\u5200\u5177\u4ee5300rpm\u7684\u8f6c\u901f\u548c0.1mm/r\u7684\u8fdb\u7ed9\u7387\u8fdb\u884c\u7cbe\u52a0\u5de5\u3002\u52a0\u5de5\u8fc7\u7a0b\u4e2d\u9700\u8981\u4f7f\u7528\u5207\u524a\u6db2\u51b7\u5374\uff0c\u5207\u524a\u6df1\u5ea6\u63a7\u5236\u57280.5mm\u4ee5\u5185\u3002",
+        "entity_hint": "",
+        "relation_hint": "",
+        "oie": [
+            [
+                "T-6A1-4V",
+                "requiresProcessing",
+                "Carborizing"
+            ],
+            [
+                "Carborizing",
+                "toolMaterial",
+                "CBN_knives"
+            ],
+            [
+                "T-6A1-4V",
+                "surfaceRoughness",
+                "Ra1.6"
+            ],
+            [
+                "T-6A1-4V",
+                "cuttingSpeed",
+                "300rpm"
+            ],
+            [
+                "T-6A1-4V",
+                "feedRate",
+                "0.1mm/r"
+            ],
+            [
+                "T-6A1-4V",
+                "coolingFluid",
+                "Lubricant"
+            ],
+            [
+                "T-6A1-4V",
+                "cuttingDepth",
+                "<=0.5mm"
+            ]
+        ],
+        "schema_definition": {
+            "requiresProcessing": "The subject entity undergoes the process specified by the object entity.",
+            "toolMaterial": "The process uses the material specified by the object entity as a tool.",
+            "feedRate": "The process is carried out at the specified feed rate.",
+            "surfaceRoughness": "The surface finish of the subject entity must meet the specified roughness requirement.",
+            "coolingFluid": "The process involves the use of the fluid specified by the object entity for cooling.",
+            "cuttingSpeed": "The process is performed at the specified cutting speed.",
+            "cuttingDepth": "The maximum cutting depth allowed for the process is specified by the object entity."
+        },
+        "canonicalization_candidates": "[{'\u52a0\u5de5\u5de5\u827a': 0.748592, '\u70ed\u5904\u7406\u65b9\u5f0f': 0.6990793, '\u52a0\u5de5\u53c2\u6570': 0.69702643, '\u4f7f\u7528\u8bbe\u5907': 0.6937397, '\u51b7\u5374\u65b9\u5f0f': 0.6771162}, {'\u4f7f\u7528\u5de5\u5177': 0.76941043, '\u4f7f\u7528\u8bbe\u5907': 0.7619229, '\u52a0\u5de5\u5de5\u827a': 0.7503236, '\u52a0\u5de5\u53c2\u6570': 0.7367583, '\u51b7\u5374\u65b9\u5f0f': 0.7162319}, {'\u8868\u9762\u8981\u6c42': 0.83438915, '\u786c\u5ea6\u8981\u6c42': 0.74520165, '\u5207\u524a\u6df1\u5ea6': 0.70568323, '\u52a0\u5de5\u5de5\u827a': 0.6936001, '\u52a0\u5de5\u53c2\u6570': 0.69232976}, {'\u52a0\u5de5\u5de5\u827a': 0.74334824, '\u51b7\u5374\u65b9\u5f0f': 0.72891897, '\u52a0\u5de5\u53c2\u6570': 0.72399, '\u4f7f\u7528\u8bbe\u5907': 0.7100545, '\u5207\u524a\u6df1\u5ea6': 0.7035331}, {'\u52a0\u5de5\u5de5\u827a': 0.71340275, '\u52a0\u5de5\u53c2\u6570': 0.69240946, '\u51b7\u5374\u65b9\u5f0f': 0.6923271, '\u4f7f\u7528\u8bbe\u5907': 0.6805577, '\u70ed\u5904\u7406\u65b9\u5f0f': 0.660676}, {'\u51b7\u5374\u65b9\u5f0f': 0.7756825, '\u52a0\u5de5\u5de5\u827a': 0.6807241, '\u4f7f\u7528\u8bbe\u5907': 0.6744492, '\u52a0\u5de5\u53c2\u6570': 0.66317713, '\u70ed\u5904\u7406\u65b9\u5f0f': 0.6614896}, {'\u5207\u524a\u6df1\u5ea6': 0.7546635, '\u52a0\u5de5\u5de5\u827a': 0.6881474, '\u52a0\u5de5\u53c2\u6570': 0.6778137, '\u4f7f\u7528\u8bbe\u5907': 0.6598121, '\u51b7\u5374\u65b9\u5f0f': 0.6571802}]",
+        "schema_canonicalizaiton": [
+            [
+                "T-6A1-4V",
+                "\u70ed\u5904\u7406\u65b9\u5f0f",
+                "Carborizing"
+            ],
+            [
+                "Carborizing",
+                "\u52a0\u5de5\u5de5\u827a",
+                "CBN_knives"
+            ],
+            [
+                "T-6A1-4V",
+                "\u8868\u9762\u8981\u6c42",
+                "Ra1.6"
+            ],
+            [
+                "T-6A1-4V",
+                "\u52a0\u5de5\u53c2\u6570",
+                "300rpm"
+            ],
+            [
+                "T-6A1-4V",
+                "\u52a0\u5de5\u53c2\u6570",
+                "0.1mm/r"
+            ],
+            [
+                "T-6A1-4V",
+                "\u52a0\u5de5\u53c2\u6570",
+                "Lubricant"
+            ],
+            [
+                "T-6A1-4V",
+                "\u51b7\u5374\u65b9\u5f0f",
+                "<=0.5mm"
+            ]
+        ]
+    }
+]
