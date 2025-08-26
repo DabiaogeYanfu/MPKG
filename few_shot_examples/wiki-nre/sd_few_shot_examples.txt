@@ -1,59 +1,59 @@
 Example 1:
-Text: Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.
-Triples: [['Romany Love', 'publication date', '1931'], ['Romany Love', 'genre', 'musical film'], ['Romany Love', 'director', 'Fred Paul'], ['Romany Love', 'cast member', 'Esmond Knight']]
-Relations: ['publication date', 'genre', 'director', 'cast member']
+Text: 电火花机床加工硬质合金模具，电极材料紫铜，放电间隙0.05mm，脉冲频率50kHz，表面粗糙度Ra0.8。
+Triples: [['模具', '材料', '硬质合金'], ['模具', '加工工序', '电火花加工'], ['电火花加工', '电极材料', '紫铜'], ['模具', '表面粗糙度要求', 'Ra0.8']]
+Relations: ['材料', '加工工序', '电极材料', '表面粗糙度要求']
 Answer: 
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-director: The subject entity was directed by the person or entity specified by the object entity.
-cast member: The subject entity includes the person specified by the object entity as a member of its cast.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+电极材料: 电火花加工中使用的电极所采用的材料。
+表面粗糙度要求: 主体零件需要达到指定的表面质量要求。
 
 Example 2:
-Text: Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.
-Triples: [['Monopoly Star Wars', 'publication date', '1997'], ['Monopoly Star Wars', 'genre', 'Monopoly'], ['Monopoly Star Wars', 'media franchise', 'Star Wars'], ['Monopoly Star Wars', 'instance of', 'video game']]
-Relations: ['publication date', 'genre', 'media franchise', 'instance of']
+Text: 线切割机床切割钛合金Ti6Al4V零件，钼丝直径Φ0.18mm，切割速度2mm/min，冷却液去离子水。
+Triples: [['零件', '材料', '钛合金Ti6Al4V'], ['零件', '加工工序', '线切割'], ['线切割', '切割丝', '钼丝Φ0.18mm'], ['线切割', '冷却液', '去离子水']]
+Relations: ['材料', '加工工序', '切割丝', '冷却液']
 Answer:
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-media franchise: The subject entity is a part of the media franchise specified by the object entity.
-instance of: The subject entity is an instance or example of the type specified by the object entity.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+切割丝: 线切割加工中使用的切割线材。
+冷却液: 加工过程中使用的冷却介质。
 
 Example 3:
-Text: Josef Schäffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.
-Triples: [['Josef Schäffer', 'date of birth', 'July 2, 1891'], ['Josef Schäffer', 'place of birth', 'Moravia'], ['Josef Schäffer', 'participant in', '1912 Summer Olympics'], ['1912 Summer Olympics', 'point in time', '1912']]
-Relations: ['date of birth', 'place of birth', 'participant in', 'point in time']
+Text: 激光切割机切割不锈钢板材，激光功率3000W，切割速度5m/min，氮气辅助气体。
+Triples: [['板材', '材料', '不锈钢'], ['板材', '加工工序', '激光切割'], ['激光切割', '激光功率', '3000W'], ['激光切割', '辅助气体', '氮气']]
+Relations: ['材料', '加工工序', '激光功率', '辅助气体']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-place of birth: The subject entity was born in the location specified by the object entity.
-participant in: The subject entity took part in the event specified by the object entity.
-point in time: The object entity specifies a specific point in time the subject entity took place in.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+激光功率: 激光加工中激光器的输出功率。
+辅助气体: 激光切割过程中使用的辅助气体。
 
 Example 4:
-Text: Sam Cross (born 26 August 1992) is a Welsh rugby union player who plays for Wales and club rugby for the Ospreys as a flanker.
-Triples: [['Sam Cross', 'date of birth', '26 August 1992'], ['Sam Cross', 'position played on team / speciality', 'flanker'], ['Ospreys', 'sport', 'rugby union'], ['flanker', 'part of', 'rugby union']]
-Relations: ['date of birth', 'position played on team / speciality', 'sport', 'part of']
+Text: Plasma arc cutting machine processes thick carbon steel plate with cutting current 200A and travel speed 800mm/min using nitrogen plasma gas.
+Triples: [['steel plate', 'material', 'carbon steel'], ['steel plate', 'machining process', 'plasma cutting'], ['plasma cutting', 'cutting current', '200A'], ['plasma cutting', 'plasma gas', 'nitrogen']]
+Relations: ['material', 'machining process', 'cutting current', 'plasma gas']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-position played on team / speciality: The subject entity plays the specified position or has the specified speciality on the team.
-sport: The subject entity is associated with the sport specified by the object entity.
-part of: The subject entity is a part of or belongs to the object entity.
+material: The subject component is made of the specified material.
+machining process: The subject component is processed using the specified manufacturing method.
+cutting current: The electrical current used in plasma cutting process.
+plasma gas: The gas used to create plasma arc in cutting process.
 
 Example 5:
-Text: Ondel-ondel is a large puppet figure featured in Betawi folk performance of Jakarta, Indonesia.
-Triples: [['Betawi', 'location', 'Jakarta'], ['Jakarta', 'country', 'Indonesia'], ['Indonesia', 'ethnic group', 'Betawi'], ['Indonesia', 'contains administrative territorial entity', 'Jakarta']]
-Relations: ['location', 'country', 'ethnic group', 'contains administrative territorial entity']
+Text: Ultrasonic machining center processes ceramic component Al2O3 using diamond abrasive slurry with frequency 20kHz and amplitude 10μm.
+Triples: [['ceramic component', 'material', 'Al2O3'], ['ceramic component', 'machining process', 'ultrasonic machining'], ['ultrasonic machining', 'abrasive', 'diamond slurry'], ['ultrasonic machining', 'frequency', '20kHz']]
+Relations: ['material', 'machining process', 'abrasive', 'frequency']
 Answer:
-location: The subject entity is located in the place specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
-ethnic group: The subject entity contains the ethnic group specified by the object entity.
-contains administrative territorial entity: The subject entity contains the administrative territorial entity specified by the object entity.
+material: The subject component is made of the specified ceramic material.
+machining process: The subject component undergoes the specified non-conventional machining method.
+abrasive: The abrasive material used in ultrasonic machining process.
+frequency: The ultrasonic vibration frequency applied during machining.
 
 Example 6:
-Text: George M. Coombs (November 27, 1851 – March 27, 1909) was an American architect from Maine.
-Triples: [['George M. Coombs', 'date of birth', 'November 27, 1851'], ['George M. Coombs', 'date of death', 'March 27, 1909'], ['American', 'contains administrative territorial entity', 'Maine'], ['Maine', 'country', 'American']]
-Relations: ['date of birth', 'date of death', 'contains administrative territorial entity', 'country']
+Text: Water jet cutting system cuts composite material CFRP with pressure 4000bar and abrasive garnet flow rate 300g/min.
+Triples: [['composite material', 'material', 'CFRP'], ['composite material', 'machining process', 'water jet cutting'], ['water jet cutting', 'pressure', '4000bar'], ['water jet cutting', 'abrasive', 'garnet']]
+Relations: ['material', 'machining process', 'pressure', 'abrasive']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-date of death: The subject entity died on the date specified by the object entity.
-contains administrative territorial entity: The subject entity contains or is a part of the administrative territorial entity specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
+material: The subject component is manufactured from the specified composite material.
+machining process: The subject component is processed using the specified cutting method.
+pressure: The water pressure applied in water jet cutting process.
+abrasive: The abrasive particles added to enhance cutting capability.

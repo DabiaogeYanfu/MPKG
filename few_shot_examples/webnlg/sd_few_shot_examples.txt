@@ -1,59 +1,59 @@
 Example 1:
-Text: Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.
-Triples: [['Romany Love', 'publication date', '1931'], ['Romany Love', 'genre', 'musical film'], ['Romany Love', 'director', 'Fred Paul'], ['Romany Love', 'cast member', 'Esmond Knight']]
-Relations: ['publication date', 'genre', 'director', 'cast member']
+Text: 超精密车床加工钛合金轴类零件，主轴转速500rpm，进给量0.05mm/r，背吃刀量0.1mm，表面粗糙度Ra0.2。
+Triples: [['轴类零件', '材料', '钛合金'], ['轴类零件', '使用设备', '超精密车床'], ['超精密车床', '主轴转速', '500rpm'], ['轴类零件', '表面粗糙度要求', 'Ra0.2']]
+Relations: ['材料', '使用设备', '主轴转速', '表面粗糙度要求']
 Answer: 
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-director: The subject entity was directed by the person or entity specified by the object entity.
-cast member: The subject entity includes the person specified by the object entity as a member of its cast.
+材料: 主体零件由指定的材料构成。
+使用设备: 主体工艺使用指定的设备进行操作。
+主轴转速: 加工过程中主轴的旋转速度。
+表面粗糙度要求: 主体零件需要达到指定的表面质量要求。
 
 Example 2:
-Text: Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.
-Triples: [['Monopoly Star Wars', 'publication date', '1997'], ['Monopoly Star Wars', 'genre', 'Monopoly'], ['Monopoly Star Wars', 'media franchise', 'Star Wars'], ['Monopoly Star Wars', 'instance of', 'video game']]
-Relations: ['publication date', 'genre', 'media franchise', 'instance of']
+Text: 数控立式铣床铣削不锈钢304工件，铣刀直径Φ20mm，切削速度200m/min，每齿进给量0.1mm。
+Triples: [['工件', '材料', '不锈钢304'], ['工件', '加工工序', '铣削'], ['铣削', '使用设备', '数控立式铣床'], ['铣削', '切削速度', '200m/min']]
+Relations: ['材料', '加工工序', '使用设备', '切削速度']
 Answer:
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-media franchise: The subject entity is a part of the media franchise specified by the object entity.
-instance of: The subject entity is an instance or example of the type specified by the object entity.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+使用设备: 主体工艺使用指定的设备进行操作。
+切削速度: 加工过程中工具相对于工件的线速度。
 
 Example 3:
-Text: Josef Schäffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.
-Triples: [['Josef Schäffer', 'date of birth', 'July 2, 1891'], ['Josef Schäffer', 'place of birth', 'Moravia'], ['Josef Schäffer', 'participant in', '1912 Summer Olympics'], ['1912 Summer Olympics', 'point in time', '1912']]
-Relations: ['date of birth', 'place of birth', 'participant in', 'point in time']
+Text: 外圆磨床磨削45#钢主轴，砂轮粒度F46，磨削速度35m/s，工件转速60rpm。
+Triples: [['主轴', '材料', '45#钢'], ['主轴', '加工工序', '磨削'], ['磨削', '使用设备', '外圆磨床'], ['磨削', '使用刀具', '砂轮F46']]
+Relations: ['材料', '加工工序', '使用设备', '使用刀具']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-place of birth: The subject entity was born in the location specified by the object entity.
-participant in: The subject entity took part in the event specified by the object entity.
-point in time: The object entity specifies a specific point in time the subject entity took place in.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+使用设备: 主体工艺使用指定的设备进行操作。
+使用刀具: 主体工艺在执行过程中需要采用客体刀具作为实施的必要工具。
 
 Example 4:
-Text: Sam Cross (born 26 August 1992) is a Welsh rugby union player who plays for Wales and club rugby for the Ospreys as a flanker.
-Triples: [['Sam Cross', 'date of birth', '26 August 1992'], ['Sam Cross', 'position played on team / speciality', 'flanker'], ['Ospreys', 'sport', 'rugby union'], ['flanker', 'part of', 'rugby union']]
-Relations: ['date of birth', 'position played on team / speciality', 'sport', 'part of']
+Text: Precision boring machine processes aluminum alloy 7075 cylinder bore with boring bar diameter 50mm and feed rate 0.03mm/r.
+Triples: [['cylinder bore', 'material', 'aluminum alloy 7075'], ['cylinder bore', 'machining process', 'boring'], ['boring', 'machine tool', 'Precision boring machine'], ['boring', 'feed rate', '0.03mm/r']]
+Relations: ['material', 'machining process', 'machine tool', 'feed rate']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-position played on team / speciality: The subject entity plays the specified position or has the specified speciality on the team.
-sport: The subject entity is associated with the sport specified by the object entity.
-part of: The subject entity is a part of or belongs to the object entity.
+material: The subject component is made of the specified material.
+machining process: The subject component is processed using the specified machining method.
+machine tool: The subject process uses the specified machine tool for operation.
+feed rate: The distance the cutting tool advances per revolution during machining.
 
 Example 5:
-Text: Ondel-ondel is a large puppet figure featured in Betawi folk performance of Jakarta, Indonesia.
-Triples: [['Betawi', 'location', 'Jakarta'], ['Jakarta', 'country', 'Indonesia'], ['Indonesia', 'ethnic group', 'Betawi'], ['Indonesia', 'contains administrative territorial entity', 'Jakarta']]
-Relations: ['location', 'country', 'ethnic group', 'contains administrative territorial entity']
+Text: CNC grinding center finishes hardened steel HSS cutting tool with CBN grinding wheel at spindle speed 3000rpm.
+Triples: [['HSS cutting tool', 'material', 'hardened steel'], ['HSS cutting tool', 'machining process', 'grinding'], ['grinding', 'machine tool', 'CNC grinding center'], ['grinding', 'grinding wheel', 'CBN grinding wheel']]
+Relations: ['material', 'machining process', 'machine tool', 'grinding wheel']
 Answer:
-location: The subject entity is located in the place specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
-ethnic group: The subject entity contains the ethnic group specified by the object entity.
-contains administrative territorial entity: The subject entity contains the administrative territorial entity specified by the object entity.
+material: The subject component is made of the specified material type.
+machining process: The subject component undergoes the specified manufacturing process.
+machine tool: The subject process utilizes the specified machine tool for operation.
+grinding wheel: The subject grinding process uses the specified type of abrasive wheel.
 
 Example 6:
-Text: George M. Coombs (November 27, 1851 – March 27, 1909) was an American architect from Maine.
-Triples: [['George M. Coombs', 'date of birth', 'November 27, 1851'], ['George M. Coombs', 'date of death', 'March 27, 1909'], ['American', 'contains administrative territorial entity', 'Maine'], ['Maine', 'country', 'American']]
-Relations: ['date of birth', 'date of death', 'contains administrative territorial entity', 'country']
+Text: Ultra-precision lathe machines optical component from brass with diamond cutting tool achieving surface finish Ra0.05.
+Triples: [['optical component', 'material', 'brass'], ['optical component', 'machining process', 'precision turning'], ['precision turning', 'machine tool', 'Ultra-precision lathe'], ['optical component', 'surface finish', 'Ra0.05']]
+Relations: ['material', 'machining process', 'machine tool', 'surface finish']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-date of death: The subject entity died on the date specified by the object entity.
-contains administrative territorial entity: The subject entity contains or is a part of the administrative territorial entity specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
+material: The subject component is manufactured from the specified material.
+machining process: The subject component is produced using the specified precision machining method.
+machine tool: The subject process employs the specified precision machine tool.
+surface finish: The subject component achieves the specified surface quality measurement.

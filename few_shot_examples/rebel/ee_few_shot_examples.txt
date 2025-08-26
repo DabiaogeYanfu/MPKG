@@ -1,23 +1,23 @@
 Example 1:
-Text: Lyseren is a lake in the municipalities of Enebakk in Akershus county and Spydeberg in Østfold county , Norway .
-Entities: ['Lyseren', 'Norway', 'Enebakk', 'Spydeberg']
+Text: 球墨铸铁缸体采用砂型铸造工艺，浇注温度1450℃，冷却时间8小时，硬度要求HB200-250。
+Entities: ['球墨铸铁', '缸体', '砂型铸造', '1450℃', '8小时', 'HB200-250']
 
 Example 2:
-Text: Varavu Nalla Uravu is a 1990 Indian Tamil film , directed by Visu and produced by Rajam Balachandar .
-Entities: ['Visu', 'Varavu Nalla Uravu']
+Text: 精密铸造涡轮叶片使用蜡模工艺，投资铸造炉温度控制在1600℃，铸件表面粗糙度Ra1.6。
+Entities: ['精密铸造', '涡轮叶片', '蜡模工艺', '投资铸造炉', '1600℃', 'Ra1.6']
 
 Example 3:
-Text: Batura III , also known as Batura Muztagh III , is a peak in Batura Muztagh of Pakistan , which is the westernmost subrange of the Karakoram range .
-Entities: ['Karakoram', 'Batura III', 'Pakistan']
+Text: 碳钢锻件45#采用自由锻造工艺，锻造温度1200℃，终锻温度850℃，锻造比不小于3。
+Entities: ['碳钢锻件', '45#', '自由锻造', '1200℃', '850℃', '锻造比3']
 
 Example 4:
-Text: Ramakuppam is a village in Chittoor district of the Indian state of Andhra Pradesh .
-Entities: ['Andhra Pradesh', 'Ramakuppam', 'India', 'Chittoor district']
+Text: Gray iron engine block produced by green sand casting process with pouring temperature 1380°C and cooling rate 2°C/min.
+Entities: ['Gray iron', 'engine block', 'green sand casting', '1380°C', '2°C/min']
 
 Example 5:
-Text: Kurniwadi is a village in Belgaum district in Karnataka , India .
-Entities: ['Belgaum district', 'Karnataka', 'India', 'Kurniwadi']
+Text: Aluminum alloy A356 connecting rod manufactured using die casting process with injection pressure 150MPa and mold temperature 220°C.
+Entities: ['Aluminum alloy A356', 'connecting rod', 'die casting', '150MPa', '220°C']
 
 Example 6:
-Text: Stadion Rankhof is a football stadium in Basel , Switzerland .
-Entities: ['Switzerland', 'Stadion Rankhof', 'Basel']
+Text: Stainless steel 316L forged flange produced by closed-die forging with deformation temperature 1150°C and forming load 8000kN.
+Entities: ['Stainless steel 316L', 'forged flange', 'closed-die forging', '1150°C', '8000kN']

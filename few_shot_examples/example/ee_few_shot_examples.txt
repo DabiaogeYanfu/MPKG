@@ -1,23 +1,23 @@
 Example 1:
-Text: Lyseren is a lake in the municipalities of Enebakk in Akershus county and Spydeberg in Østfold county , Norway .
-Entities: ['Lyseren', 'Norway', 'Enebakk', 'Spydeberg']
+Text: 钛合金零件T-6A1-4V需要经过车削加工，建议采用CBN刀具以300rpm的转速进行精加工。
+Entities: ['钛合金零件', 'T-6A1-4V', '车削加工', 'CBN刀具', '300rpm', '精加工']
 
 Example 2:
-Text: Varavu Nalla Uravu is a 1990 Indian Tamil film , directed by Visu and produced by Rajam Balachandar .
-Entities: ['Visu', 'Varavu Nalla Uravu']
+Text: 不锈钢304材料的精密轴套采用车削加工工序，使用硬质合金刀具YG8，切削速度120m/min。
+Entities: ['不锈钢304', '精密轴套', '车削加工', '硬质合金刀具YG8', '120m/min']
 
 Example 3:
-Text: Batura III , also known as Batura Muztagh III , is a peak in Batura Muztagh of Pakistan , which is the westernmost subrange of the Karakoram range .
-Entities: ['Karakoram', 'Batura III', 'Pakistan']
+Text: 数控加工中心XH714具有16个刀位，主轴最高转速12000转/分，最高精度可达到IT4等级。
+Entities: ['数控加工中心XH714', '16', '12000转/分', 'IT4等级']
 
 Example 4:
-Text: Ramakuppam is a village in Chittoor district of the Indian state of Andhra Pradesh .
-Entities: ['Andhra Pradesh', 'Ramakuppam', 'India', 'Chittoor district']
+Text: Aluminum alloy component 6061-T6 requires CNC milling process with carbide end mill at spindle speed of 8000rpm.
+Entities: ['Aluminum alloy', '6061-T6', 'CNC milling', 'carbide end mill', '8000rpm']
 
 Example 5:
-Text: Kurniwadi is a village in Belgaum district in Karnataka , India .
-Entities: ['Belgaum district', 'Karnataka', 'India', 'Kurniwadi']
+Text: Cast iron base HT250 needs surface grinding operation using aluminum oxide wheel at feed rate of 0.05mm/r.
+Entities: ['Cast iron', 'HT250', 'surface grinding', 'aluminum oxide wheel', '0.05mm/r']
 
 Example 6:
-Text: Stadion Rankhof is a football stadium in Basel , Switzerland .
-Entities: ['Switzerland', 'Stadion Rankhof', 'Basel']
+Text: Steel shaft 45# undergoes heat treatment to achieve hardness HRC30-35 before precision turning operation.
+Entities: ['Steel shaft', '45#', 'heat treatment', 'HRC30-35', 'precision turning']

@@ -1,23 +1,23 @@
 Example 1:
-Text: The location of Trane is Swords, Dublin.
-Triplets: [['Trane', 'location', 'Swords,_Dublin']]
+Text: 超精密车床加工钛合金轴类零件，主轴转速500rpm，进给量0.05mm/r，背吃刀量0.1mm，表面粗糙度Ra0.2。
+Triplets: [['轴类零件', '材料', '钛合金'], ['轴类零件', '使用设备', '超精密车床'], ['超精密车床', '主轴转速', '500rpm'], ['超精密车床', '进给量', '0.05mm/r'], ['超精密车床', '背吃刀量', '0.1mm'], ['轴类零件', '表面粗糙度要求', 'Ra0.2']]
 
 Example 2:
-Text: The Ciudad Ayala city, a part of Morelos with population density and population of 1604.0 and 1,777,539 respectively, has a UTC offset of -6. The government type of Ciudad Ayala is council-manager government and City Manager is one of the leaders.
-Triplets: [['Ciudad_Ayala', 'populationMetro', '1777539'], ['Ciudad_Ayala', 'leaderTitle', '"City Manager"'], ['Ciudad_Ayala', 'type', 'City'], ['Ciudad_Ayala', 'populationDensity', '1604.0'], ['Ciudad_Ayala', 'governmentType', 'Council-manager_government'], ['Ciudad_Ayala', 'utcOffset', '−6'], ['Ciudad_Ayala', 'isPartOf', 'Morelos']]
+Text: 数控立式铣床铣削不锈钢304工件，铣刀直径Φ20mm，切削速度200m/min，每齿进给量0.1mm，径向切深2mm。
+Triplets: [['工件', '材料', '不锈钢304'], ['工件', '加工工序', '铣削'], ['铣削', '使用设备', '数控立式铣床'], ['铣削', '使用刀具', '铣刀Φ20mm'], ['铣削', '切削速度', '200m/min'], ['铣削', '每齿进给量', '0.1mm'], ['铣削', '径向切深', '2mm']]
 
 Example 3:
-Text: The 17068.8 millimeter long ALCO RS-3 has a diesel-electric transmission.
-Triplets: [['ALCO_RS-3', 'powerType', 'Diesel-electric_transmission'], ['ALCO_RS-3', 'length', '17068.8 (millimetres)']]
+Text: 外圆磨床磨削45#钢主轴，砂轮粒度F46，磨削速度35m/s，工件转速60rpm，横向进给0.005mm。
+Triplets: [['主轴', '材料', '45#钢'], ['主轴', '加工工序', '磨削'], ['磨削', '使用设备', '外圆磨床'], ['磨削', '使用刀具', '砂轮F46'], ['磨削', '磨削速度', '35m/s'], ['磨削', '工件转速', '60rpm'], ['磨削', '横向进给', '0.005mm']]
 
 Example 4:
-Text: Alan B. Miller Hall, in Virginia, USA, was designed by Robert A.M. Stern. The address of the hall is "101 Ukrop Way" and the current tenants are the Mason School of Business.
-Triplets: [['Alan_B._Miller_Hall', 'architect', 'Robert_A._M._Stern'], ['Alan_B._Miller_Hall', 'address', '"101 Ukrop Way"'], ['Alan_B._Miller_Hall', 'currentTenants', 'Mason_School_of_Business'], ['Alan_B._Miller_Hall', 'location', 'Virginia'], ['Mason_School_of_Business', 'country', 'United_States']]
+Text: Precision boring machine processes aluminum alloy 7075 cylinder bore with boring bar diameter 50mm and feed rate 0.03mm/r.
+Triplets: [['cylinder bore', '材料', 'aluminum alloy 7075'], ['cylinder bore', '加工工序', 'boring'], ['boring', '使用设备', 'Precision boring machine'], ['boring', '使用刀具', 'boring bar 50mm'], ['boring', '进给量', '0.03mm/r']]
 
 Example 5:
-Text: Liselotte Grschebina was born in Karlsruhe and died in Israel. Ethnic groups in Israel include Arabs.
-Triplets: [['Liselotte_Grschebina', 'bornIn', 'Karlsruhe'], ['Liselotte_Grschebina', 'diedIn', 'Israel'], ['Israel', 'ethnicGroup', 'Arab_citizens_of_Israel']]
+Text: CNC grinding center finishes hardened steel HSS cutting tool with CBN grinding wheel at spindle speed 3000rpm.
+Triplets: [['HSS cutting tool', '材料', 'hardened steel'], ['HSS cutting tool', '加工工序', 'grinding'], ['grinding', '使用设备', 'CNC grinding center'], ['grinding', '使用刀具', 'CBN grinding wheel'], ['grinding', '主轴转速', '3000rpm']]
 
 Example 6:
-Text: Agremiação Sportiva Arapiraquense managed by Vica has 17000 members and play in the Campeonato Brasileiro Série C league which is from Brazil.
-Triplets: [['Agremiação_Sportiva_Arapiraquense', 'league', 'Campeonato_Brasileiro_Série_C'], ['Campeonato_Brasileiro_Série_C', 'country', 'Brazil'], ['Agremiação_Sportiva_Arapiraquense', 'numberOfMembers', '17000'], ['Agremiação_Sportiva_Arapiraquense', 'manager', 'Vica']]
+Text: Ultra-precision lathe machines optical component from brass with diamond cutting tool achieving surface finish Ra0.05.
+Triplets: [['optical component', '材料', 'brass'], ['optical component', '加工工序', 'precision turning'], ['precision turning', '使用设备', 'Ultra-precision lathe'], ['precision turning', '使用刀具', 'diamond cutting tool'], ['optical component', '表面粗糙度要求', 'Ra0.05']]

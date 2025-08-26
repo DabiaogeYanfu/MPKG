@@ -1,59 +1,59 @@
 Example 1:
-Text: Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.
-Triples: [['Romany Love', 'publication date', '1931'], ['Romany Love', 'genre', 'musical film'], ['Romany Love', 'director', 'Fred Paul'], ['Romany Love', 'cast member', 'Esmond Knight']]
-Relations: ['publication date', 'genre', 'director', 'cast member']
+Text: 球墨铸铁缸体采用砂型铸造工艺，浇注温度1450℃，冷却时间8小时，硬度要求HB200-250。
+Triples: [['缸体', '材料', '球墨铸铁'], ['缸体', '加工工序', '砂型铸造'], ['砂型铸造', '浇注温度', '1450℃'], ['缸体', '硬度要求', 'HB200-250']]
+Relations: ['材料', '加工工序', '浇注温度', '硬度要求']
 Answer: 
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-director: The subject entity was directed by the person or entity specified by the object entity.
-cast member: The subject entity includes the person specified by the object entity as a member of its cast.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+浇注温度: 铸造工艺中熔融金属的浇注温度。
+硬度要求: 主体零件需要达到指定的硬度标准。
 
 Example 2:
-Text: Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.
-Triples: [['Monopoly Star Wars', 'publication date', '1997'], ['Monopoly Star Wars', 'genre', 'Monopoly'], ['Monopoly Star Wars', 'media franchise', 'Star Wars'], ['Monopoly Star Wars', 'instance of', 'video game']]
-Relations: ['publication date', 'genre', 'media franchise', 'instance of']
+Text: 精密铸造涡轮叶片使用蜡模工艺，投资铸造炉温度控制在1600℃，铸件表面粗糙度Ra1.6。
+Triples: [['涡轮叶片', '加工工序', '精密铸造'], ['精密铸造', '使用工艺', '蜡模工艺'], ['精密铸造', '使用设备', '投资铸造炉'], ['涡轮叶片', '表面粗糙度要求', 'Ra1.6']]
+Relations: ['加工工序', '使用工艺', '使用设备', '表面粗糙度要求']
 Answer:
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-media franchise: The subject entity is a part of the media franchise specified by the object entity.
-instance of: The subject entity is an instance or example of the type specified by the object entity.
+加工工序: 主体零件按照指定的工序顺序进行加工。
+使用工艺: 主体加工方法采用指定的具体工艺技术。
+使用设备: 主体工艺使用指定的设备进行操作。
+表面粗糙度要求: 主体零件需要达到指定的表面质量要求。
 
 Example 3:
-Text: Josef Schäffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.
-Triples: [['Josef Schäffer', 'date of birth', 'July 2, 1891'], ['Josef Schäffer', 'place of birth', 'Moravia'], ['Josef Schäffer', 'participant in', '1912 Summer Olympics'], ['1912 Summer Olympics', 'point in time', '1912']]
-Relations: ['date of birth', 'place of birth', 'participant in', 'point in time']
+Text: 碳钢锻件45#采用自由锻造工艺，锻造温度1200℃，终锻温度850℃，锻造比不小于3。
+Triples: [['碳钢锻件', '材料', '45#'], ['碳钢锻件', '加工工序', '自由锻造'], ['自由锻造', '锻造温度', '1200℃'], ['自由锻造', '终锻温度', '850℃']]
+Relations: ['材料', '加工工序', '锻造温度', '终锻温度']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-place of birth: The subject entity was born in the location specified by the object entity.
-participant in: The subject entity took part in the event specified by the object entity.
-point in time: The object entity specifies a specific point in time the subject entity took place in.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+锻造温度: 锻造工艺中材料加热的温度。
+终锻温度: 锻造工艺结束时的温度。
 
 Example 4:
-Text: Sam Cross (born 26 August 1992) is a Welsh rugby union player who plays for Wales and club rugby for the Ospreys as a flanker.
-Triples: [['Sam Cross', 'date of birth', '26 August 1992'], ['Sam Cross', 'position played on team / speciality', 'flanker'], ['Ospreys', 'sport', 'rugby union'], ['flanker', 'part of', 'rugby union']]
-Relations: ['date of birth', 'position played on team / speciality', 'sport', 'part of']
+Text: Gray iron engine block produced by green sand casting process with pouring temperature 1380°C and cooling rate 2°C/min.
+Triples: [['engine block', 'material', 'Gray iron'], ['engine block', 'manufacturing process', 'green sand casting'], ['green sand casting', 'pouring temperature', '1380°C'], ['green sand casting', 'cooling rate', '2°C/min']]
+Relations: ['material', 'manufacturing process', 'pouring temperature', 'cooling rate']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-position played on team / speciality: The subject entity plays the specified position or has the specified speciality on the team.
-sport: The subject entity is associated with the sport specified by the object entity.
-part of: The subject entity is a part of or belongs to the object entity.
+material: The subject component is made of the specified material.
+manufacturing process: The subject component is produced using the specified manufacturing method.
+pouring temperature: The temperature at which molten metal is poured during casting.
+cooling rate: The rate at which the cast component cools after pouring.
 
 Example 5:
-Text: Ondel-ondel is a large puppet figure featured in Betawi folk performance of Jakarta, Indonesia.
-Triples: [['Betawi', 'location', 'Jakarta'], ['Jakarta', 'country', 'Indonesia'], ['Indonesia', 'ethnic group', 'Betawi'], ['Indonesia', 'contains administrative territorial entity', 'Jakarta']]
-Relations: ['location', 'country', 'ethnic group', 'contains administrative territorial entity']
+Text: Aluminum alloy A356 connecting rod manufactured using die casting process with injection pressure 150MPa and mold temperature 220°C.
+Triples: [['connecting rod', 'material', 'Aluminum alloy A356'], ['connecting rod', 'manufacturing process', 'die casting'], ['die casting', 'injection pressure', '150MPa'], ['die casting', 'mold temperature', '220°C']]
+Relations: ['material', 'manufacturing process', 'injection pressure', 'mold temperature']
 Answer:
-location: The subject entity is located in the place specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
-ethnic group: The subject entity contains the ethnic group specified by the object entity.
-contains administrative territorial entity: The subject entity contains the administrative territorial entity specified by the object entity.
+material: The subject component is made of the specified aluminum alloy grade.
+manufacturing process: The subject component is produced using the specified casting method.
+injection pressure: The pressure applied during injection in the die casting process.
+mold temperature: The temperature maintained in the die during casting.
 
 Example 6:
-Text: George M. Coombs (November 27, 1851 – March 27, 1909) was an American architect from Maine.
-Triples: [['George M. Coombs', 'date of birth', 'November 27, 1851'], ['George M. Coombs', 'date of death', 'March 27, 1909'], ['American', 'contains administrative territorial entity', 'Maine'], ['Maine', 'country', 'American']]
-Relations: ['date of birth', 'date of death', 'contains administrative territorial entity', 'country']
+Text: Stainless steel 316L forged flange produced by closed-die forging with deformation temperature 1150°C and forming load 8000kN.
+Triples: [['forged flange', 'material', 'Stainless steel 316L'], ['forged flange', 'manufacturing process', 'closed-die forging'], ['closed-die forging', 'deformation temperature', '1150°C'], ['closed-die forging', 'forming load', '8000kN']]
+Relations: ['material', 'manufacturing process', 'deformation temperature', 'forming load']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-date of death: The subject entity died on the date specified by the object entity.
-contains administrative territorial entity: The subject entity contains or is a part of the administrative territorial entity specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
+material: The subject component is made of the specified stainless steel grade.
+manufacturing process: The subject component is produced using the specified forging method.
+deformation temperature: The temperature at which plastic deformation occurs during forging.
+forming load: The force applied during the forging operation to shape the component.

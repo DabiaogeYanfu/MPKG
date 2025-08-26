@@ -1,23 +1,23 @@
 Example 1:
-Text: Lyseren is a lake in the municipalities of Enebakk in Akershus county and Spydeberg in Østfold county , Norway .
-Entities: ['Lyseren', 'Norway', 'Enebakk', 'Spydeberg']
+Text: 超精密车床加工钛合金轴类零件，主轴转速500rpm，进给量0.05mm/r，背吃刀量0.1mm，表面粗糙度Ra0.2。
+Entities: ['超精密车床', '钛合金', '轴类零件', '500rpm', '0.05mm/r', '0.1mm', 'Ra0.2']
 
 Example 2:
-Text: Varavu Nalla Uravu is a 1990 Indian Tamil film , directed by Visu and produced by Rajam Balachandar .
-Entities: ['Visu', 'Varavu Nalla Uravu']
+Text: 数控立式铣床铣削不锈钢304工件，铣刀直径Φ20mm，切削速度200m/min，每齿进给量0.1mm，径向切深2mm。
+Entities: ['数控立式铣床', '不锈钢304', 'Φ20mm', '200m/min', '0.1mm', '2mm']
 
 Example 3:
-Text: Batura III , also known as Batura Muztagh III , is a peak in Batura Muztagh of Pakistan , which is the westernmost subrange of the Karakoram range .
-Entities: ['Karakoram', 'Batura III', 'Pakistan']
+Text: 外圆磨床磨削45#钢主轴，砂轮粒度F46，磨削速度35m/s，工件转速60rpm，横向进给0.005mm。
+Entities: ['外圆磨床', '45#钢', '主轴', 'F46', '35m/s', '60rpm', '0.005mm']
 
 Example 4:
-Text: Ramakuppam is a village in Chittoor district of the Indian state of Andhra Pradesh .
-Entities: ['Andhra Pradesh', 'Ramakuppam', 'India', 'Chittoor district']
+Text: Precision boring machine processes aluminum alloy 7075 cylinder bore with boring bar diameter 50mm and feed rate 0.03mm/r.
+Entities: ['Precision boring machine', 'aluminum alloy 7075', 'cylinder bore', '50mm', '0.03mm/r']
 
 Example 5:
-Text: Kurniwadi is a village in Belgaum district in Karnataka , India .
-Entities: ['Belgaum district', 'Karnataka', 'India', 'Kurniwadi']
+Text: CNC grinding center finishes hardened steel HSS cutting tool with CBN grinding wheel at spindle speed 3000rpm.
+Entities: ['CNC grinding center', 'hardened steel', 'HSS cutting tool', 'CBN grinding wheel', '3000rpm']
 
 Example 6:
-Text: Stadion Rankhof is a football stadium in Basel , Switzerland .
-Entities: ['Switzerland', 'Stadion Rankhof', 'Basel']
+Text: Ultra-precision lathe machines optical component from brass with diamond cutting tool achieving surface finish Ra0.05.
+Entities: ['Ultra-precision lathe', 'optical component', 'brass', 'diamond cutting tool', 'Ra0.05']

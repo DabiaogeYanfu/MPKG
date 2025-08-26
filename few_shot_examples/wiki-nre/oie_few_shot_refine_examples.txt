@@ -1,29 +1,29 @@
 Example 1:
-Text: Lyseren is a lake in the municipalities of Enebakk in Akershus county and Spydeberg in Østfold county , Norway .
-Candidate entities: ['Enebakk', 'Lyseren', 'Norway', 'Spydeberg']
-Triplets: [['Lyseren', 'located in the administrative territorial entity', 'Enebakk'], ['Lyseren', 'located in the administrative territorial entity', 'Spydeberg'], ['Lyseren', 'country', 'Norway']]
+Text: 电火花机床加工硬质合金模具，电极材料紫铜，放电间隙0.05mm。
+Candidate entities: ['电火花机床', '硬质合金', '模具', '紫铜', '0.05mm']
+Triplets: [['模具', '材料', '硬质合金'], ['模具', '加工工序', '电火花加工'], ['电火花加工', '使用设备', '电火花机床'], ['电火花加工', '电极材料', '紫铜'], ['电火花加工', '放电间隙', '0.05mm']]
 
 Example 2:
-Text: Varavu Nalla Uravu is a 1990 Indian Tamil film , directed by Visu and produced by Rajam Balachandar .
-Candidate entities: ['Varavu Nalla Uravu', 'Visu']
-Triplets: [['Varavu Nalla Uravu', 'cast member', 'Visu'], ['Varavu Nalla Uravu', 'screenwriter', 'Visu'], ['Varavu Nalla Uravu', 'director', 'Visu']]
+Text: 线切割机床切割钛合金Ti6Al4V零件，钼丝直径Φ0.18mm，切割速度2mm/min，冷却液去离子水。
+Candidate entities: ['线切割机床', '钛合金Ti6Al4V', '零件', 'Φ0.18mm', '2mm/min', '去离子水']
+Triplets: [['零件', '材料', '钛合金Ti6Al4V'], ['零件', '加工工序', '线切割'], ['线切割', '使用设备', '线切割机床'], ['线切割', '切割丝', '钼丝Φ0.18mm'], ['线切割', '切割速度', '2mm/min'], ['线切割', '冷却液', '去离子水']]
 
 Example 3:
-Text: Batura III , also known as Batura Muztagh III , is a peak in Batura Muztagh of Pakistan , which is the westernmost subrange of the Karakoram range .
-Candidate entities: ['Pakistan', 'Batura III', 'Karakoram']
-Triplets: [['Batura III', 'country', 'Pakistan'], ['Batura III', 'part of', 'Karakoram'], ['Batura III', 'located on terrain feature', 'Karakoram']]
+Text: 激光切割机切割不锈钢板材，激光功率3000W，切割速度5m/min，氮气辅助气体，切缝宽度0.2mm。
+Candidate entities: ['激光切割机', '不锈钢', '板材', '3000W', '5m/min', '氮气', '0.2mm']
+Triplets: [['板材', '材料', '不锈钢'], ['板材', '加工工序', '激光切割'], ['激光切割', '使用设备', '激光切割机'], ['激光切割', '激光功率', '3000W'], ['激光切割', '切割速度', '5m/min'], ['激光切割', '辅助气体', '氮气'], ['激光切割', '切缝宽度', '0.2mm']]
 
 Example 4:
-Text: Ramakuppam is a village in Chittoor district of the Indian state of Andhra Pradesh .
-Candidate entities: ['Chittoor district', 'Andhra Pradesh', 'India', 'Ramakuppam']
-Triplets: [['Ramakuppam', 'located in the administrative territorial entity', 'Chittoor district'], ['Ramakuppam', 'country', 'India'], ['Ramakuppam', 'located in the administrative territorial entity', 'Andhra Pradesh']]
+Text: Plasma arc cutting machine processes thick carbon steel plate with cutting current 200A and travel speed 800mm/min using nitrogen plasma gas.
+Candidate entities: ['Plasma arc cutting machine', 'carbon steel plate', '200A', '800mm/min', 'nitrogen plasma gas']
+Triplets: [['steel plate', '材料', 'carbon steel'], ['steel plate', '加工工序', 'plasma cutting'], ['plasma cutting', '使用设备', 'Plasma arc cutting machine'], ['plasma cutting', '切割电流', '200A'], ['plasma cutting', '行进速度', '800mm/min'], ['plasma cutting', '等离子气体', 'nitrogen']]
 
 Example 5:
-Text: Kurniwadi is a village in Belgaum district in Karnataka , India .
-Candidate entities: ['Karnataka', 'Kurniwadi', 'Belgaum district', 'India']
-Triplets: [['Kurniwadi', 'located in the administrative territorial entity', 'Belgaum district'], ['Kurniwadi', 'located in the administrative territorial entity', 'Karnataka'], ['Kurniwadi', 'country', 'India']]
+Text: Ultrasonic machining center processes ceramic component Al2O3 using diamond abrasive slurry with frequency 20kHz and amplitude 10μm.
+Candidate entities: ['Ultrasonic machining center', 'ceramic component', 'Al2O3', 'diamond abrasive slurry', '20kHz', '10μm']
+Triplets: [['ceramic component', '材料', 'Al2O3'], ['ceramic component', '加工工序', 'ultrasonic machining'], ['ultrasonic machining', '使用设备', 'Ultrasonic machining center'], ['ultrasonic machining', '磨料', 'diamond abrasive slurry'], ['ultrasonic machining', '频率', '20kHz'], ['ultrasonic machining', '振幅', '10μm']]
 
 Example 6:
-Text: Stadion Rankhof is a football stadium in Basel , Switzerland .
-Candidate entities: ['Switzerland', 'Basel', 'Stadion Rankhof']
-Triplets: [['Stadion Rankhof', 'located in the administrative territorial entity', 'Basel'], ['Stadion Rankhof', 'country', 'Switzerland']]
+Text: Water jet cutting system cuts composite material CFRP with pressure 4000bar and abrasive garnet flow rate 300g/min achieving kerf width 1.2mm.
+Candidate entities: ['Water jet cutting system', 'composite material', 'CFRP', '4000bar', 'garnet', '300g/min', '1.2mm']
+Triplets: [['composite material', '材料', 'CFRP'], ['composite material', '加工工序', 'water jet cutting'], ['water jet cutting', '使用设备', 'Water jet cutting system'], ['water jet cutting', '压力', '4000bar'], ['water jet cutting', '磨料', 'garnet'], ['water jet cutting', '磨料流量', '300g/min'], ['water jet cutting', '切缝宽度', '1.2mm']]

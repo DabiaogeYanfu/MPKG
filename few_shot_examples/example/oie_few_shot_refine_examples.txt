@@ -1,29 +1,29 @@
 Example 1:
-Text: The location of Trane is Swords, Dublin.
-Candidate entities: ['Trane', 'Swords,_Dublin']
-Triplets: [['Trane', 'location', 'Swords,_Dublin']]
+Text: 钛合金零件T-6A1-4V需要车削加工，转速300rpm。
+Candidate entities: ['钛合金零件', 'T-6A1-4V', '车削加工', '300rpm']
+Triplets: [['钛合金零件', '材料', 'T-6A1-4V'], ['钛合金零件', '加工工序', '车削加工'], ['车削加工', '主轴转速', '300rpm']]
 
 Example 2:
-Text: The Ciudad Ayala city, a part of Morelos with population density and population of 1604.0 and 1,777,539 respectively, has a UTC offset of -6. The government type of Ciudad Ayala is council-manager government and City Manager is one of the leaders.
-Candidate entities: ['Ciudad_Ayala', '1604.0', '−6', '"City Manager"', 'City', '1777539', 'Morelos', 'Council-manager_government']
-Triplets: [['Ciudad_Ayala', 'populationMetro', '1777539'], ['Ciudad_Ayala', 'leaderTitle', '"City Manager"'], ['Ciudad_Ayala', 'type', 'City'], ['Ciudad_Ayala', 'populationDensity', '1604.0'], ['Ciudad_Ayala', 'governmentType', 'Council-manager_government'], ['Ciudad_Ayala', 'utcOffset', '−6'], ['Ciudad_Ayala', 'isPartOf', 'Morelos']]
+Text: 不锈钢304精密轴套表面粗糙度Ra0.4，使用硬质合金刀具YG8进行车削，切削速度120m/min，进给量0.08mm/r。
+Candidate entities: ['不锈钢304', '精密轴套', 'Ra0.4', '硬质合金刀具YG8', '车削', '120m/min', '0.08mm/r']
+Triplets: [['精密轴套', '材料', '不锈钢304'], ['精密轴套', '表面粗糙度要求', 'Ra0.4'], ['车削', '使用刀具', '硬质合金刀具YG8'], ['车削', '切削速度', '120m/min'], ['车削', '进给量', '0.08mm/r']]
 
 Example 3:
-Text: The 17068.8 millimeter long ALCO RS-3 has a diesel-electric transmission.
-Candidate entities: ['Diesel-electric_transmission', 'ALCO_RS-3', '17068.8 (millimetres)']
-Triplets: [['ALCO_RS-3', 'powerType', 'Diesel-electric_transmission'], ['ALCO_RS-3', 'length', '17068.8 (millimetres)']]
+Text: 数控加工中心XH714拥有16个刀位，主轴最高转速12000转/分，最高精度IT4等级，目前在C车间运行。
+Candidate entities: ['数控加工中心XH714', '16', '12000转/分', 'IT4等级', 'C车间']
+Triplets: [['数控加工中心XH714', '刀位数量', '16'], ['数控加工中心XH714', '主轴最高转速', '12000转/分'], ['数控加工中心XH714', '最高精度', 'IT4等级'], ['数控加工中心XH714', '所在位置', 'C车间']]
 
 Example 4:
-Text: Alan B. Miller Hall, in Virginia, USA, was designed by Robert A.M. Stern. The address of the hall is "101 Ukrop Way" and the current tenants are the Mason School of Business.
-Candidate entities: ['Alan_B._Miller_Hall', '"101 Ukrop Way"', 'United_States', 'Mason_School_of_Business', 'Robert_A._M._Stern', 'Virginia']
-Triplets: [['Alan_B._Miller_Hall', 'architect', 'Robert_A._M._Stern'], ['Alan_B._Miller_Hall', 'address', '"101 Ukrop Way"'], ['Alan_B._Miller_Hall', 'currentTenants', 'Mason_School_of_Business'], ['Alan_B._Miller_Hall', 'location', 'Virginia'], ['Mason_School_of_Business', 'country', 'United_States']]
+Text: Aluminum alloy 6061-T6 component requires CNC milling with carbide end mill at 8000rpm spindle speed and 0.15mm/r feed rate.
+Candidate entities: ['Aluminum alloy', '6061-T6', 'CNC milling', 'carbide end mill', '8000rpm', '0.15mm/r']
+Triplets: [['Aluminum alloy', '材料', '6061-T6'], ['Aluminum alloy', '加工工序', 'CNC milling'], ['CNC milling', '使用刀具', 'carbide end mill'], ['CNC milling', '主轴转速', '8000rpm'], ['CNC milling', '进给量', '0.15mm/r']]
 
 Example 5:
-Text: Liselotte Grschebina was born in Karlsruhe and died in Israel. Ethnic groups in Israel include Arabs.
-Candidate entities: ['Karlsruhe', 'Israel', 'Arab_citizens_of_Israel', 'Liselotte_Grschebina']
-Triplets: [['Liselotte_Grschebina', 'birthPlace', 'Karlsruhe'], ['Liselotte_Grschebina', 'deathPlace', 'Israel'], ['Israel', 'ethnicGroup', 'Arab_citizens_of_Israel']]
+Text: Cast iron base HT250 undergoes surface grinding using aluminum oxide wheel with coolant system and surface roughness requirement Ra0.8.
+Candidate entities: ['Cast iron base', 'HT250', 'surface grinding', 'aluminum oxide wheel', 'coolant system', 'Ra0.8']
+Triplets: [['Cast iron base', '材料', 'HT250'], ['Cast iron base', '加工工序', 'surface grinding'], ['surface grinding', '使用刀具', 'aluminum oxide wheel'], ['surface grinding', '冷却方式', 'coolant system'], ['Cast iron base', '表面粗糙度要求', 'Ra0.8']]
 
 Example 6:
-Text: Agremiação Sportiva Arapiraquense managed by Vica has 17000 members and play in the Campeonato Brasileiro Série C league which is from Brazil.
-Candidate entities: ['Vica', 'Agremiação_Sportiva_Arapiraquense', 'Brazil', 'Campeonato_Brasileiro_Série_C', '17000']
-Triplets: [['Agremiação_Sportiva_Arapiraquense', 'league', 'Campeonato_Brasileiro_Série_C'], ['Campeonato_Brasileiro_Série_C', 'country', 'Brazil'], ['Agremiação_Sportiva_Arapiraquense', 'numberOfMembers', '17000'], ['Agremiação_Sportiva_Arapiraquense', 'manager', 'Vica']]
+Text: Steel shaft 45# with heat treatment achieving HRC30-35 hardness undergoes precision turning with 0.5mm cutting depth and cutting fluid cooling.
+Candidate entities: ['Steel shaft', '45#', 'heat treatment', 'HRC30-35', 'precision turning', '0.5mm', 'cutting fluid']
+Triplets: [['Steel shaft', '材料', '45#'], ['Steel shaft', '热处理', 'heat treatment'], ['heat treatment', '硬度要求', 'HRC30-35'], ['Steel shaft', '加工工序', 'precision turning'], ['precision turning', '切削深度', '0.5mm'], ['precision turning', '冷却方式', 'cutting fluid']]

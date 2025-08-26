@@ -1,59 +1,58 @@
 Example 1:
-Text: Romany Love is a 1931 British musical film directed by Fred Paul and starring Esmond Knight, Florence McHugh and Roy Travers.
-Triples: [['Romany Love', 'publication date', '1931'], ['Romany Love', 'genre', 'musical film'], ['Romany Love', 'director', 'Fred Paul'], ['Romany Love', 'cast member', 'Esmond Knight']]
-Relations: ['publication date', 'genre', 'director', 'cast member']
+Text: 钛合金零件T-6A1-4V需要经过车削加工，建议采用CBN刀具以300rpm的转速进行精加工。
+Triples: [['钛合金零件', '材料', 'T-6A1-4V'], ['钛合金零件', '加工工序', '车削加工'], ['车削加工', '使用刀具', 'CBN刀具'], ['车削加工', '主轴转速', '300rpm']]
+Relations: ['材料', '加工工序', '使用刀具', '主轴转速']
 Answer: 
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-director: The subject entity was directed by the person or entity specified by the object entity.
-cast member: The subject entity includes the person specified by the object entity as a member of its cast.
+材料: 主体零件由指定的材料构成。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+使用刀具: 主体工艺在执行过程中需要采用客体刀具作为实施的必要工具。
+主轴转速: 加工过程中主轴的旋转速度。
 
 Example 2:
-Text: Monopoly Star Wars is the 1997 Monopoly franchise Star Wars video game based on the board game and set in the Star Wars fictional universe.
-Triples: [['Monopoly Star Wars', 'publication date', '1997'], ['Monopoly Star Wars', 'genre', 'Monopoly'], ['Monopoly Star Wars', 'media franchise', 'Star Wars'], ['Monopoly Star Wars', 'instance of', 'video game']]
-Relations: ['publication date', 'genre', 'media franchise', 'instance of']
+Text: 不锈钢304材料的精密轴套表面粗糙度要求Ra0.4，采用车削加工工序，切削速度120m/min。
+Triples: [['精密轴套', '材料', '不锈钢304'], ['精密轴套', '表面粗糙度要求', 'Ra0.4'], ['精密轴套', '加工工序', '车削加工'], ['车削加工', '切削速度', '120m/min']]
+Relations: ['材料', '表面粗糙度要求', '加工工序', '切削速度']
 Answer:
-publication date: The subject entity was published or released on the date specified by the object entity.
-genre: The subject entity belongs to the genre specified by the object entity.
-media franchise: The subject entity is a part of the media franchise specified by the object entity.
-instance of: The subject entity is an instance or example of the type specified by the object entity.
+材料: 主体零件由指定的材料构成。
+表面粗糙度要求: 主体零件需要达到指定的表面质量要求。
+加工工序: 主体零件按照指定的工序顺序进行加工。
+切削速度: 加工过程中工具相对于工件的线速度。
 
 Example 3:
-Text: Josef Schäffer (born July 2, 1891 in Moravia) was an Austrian track and field athlete who competed in the 1912 Summer Olympics.
-Triples: [['Josef Schäffer', 'date of birth', 'July 2, 1891'], ['Josef Schäffer', 'place of birth', 'Moravia'], ['Josef Schäffer', 'participant in', '1912 Summer Olympics'], ['1912 Summer Olympics', 'point in time', '1912']]
-Relations: ['date of birth', 'place of birth', 'participant in', 'point in time']
+Text: 数控加工中心XH714具有16个刀位，主轴最高转速12000转/分，适用于型腔和表面加工。
+Triples: [['数控加工中心XH714', '刀位数量', '16'], ['数控加工中心XH714', '主轴最高转速', '12000转/分'], ['数控加工中心XH714', '适用于', '型腔和表面加工']]
+Relations: ['刀位数量', '主轴最高转速', '适用于']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-place of birth: The subject entity was born in the location specified by the object entity.
-participant in: The subject entity took part in the event specified by the object entity.
-point in time: The object entity specifies a specific point in time the subject entity took place in.
+刀位数量: 设备可容纳的刀具数量。
+主轴最高转速: 设备主轴能够达到的最高旋转速度。
+适用于: 设备或工艺适合的加工对象或应用场景。
 
 Example 4:
-Text: Sam Cross (born 26 August 1992) is a Welsh rugby union player who plays for Wales and club rugby for the Ospreys as a flanker.
-Triples: [['Sam Cross', 'date of birth', '26 August 1992'], ['Sam Cross', 'position played on team / speciality', 'flanker'], ['Ospreys', 'sport', 'rugby union'], ['flanker', 'part of', 'rugby union']]
-Relations: ['date of birth', 'position played on team / speciality', 'sport', 'part of']
+Text: Aluminum alloy component 6061-T6 requires CNC milling process with carbide end mill at spindle speed of 8000rpm and feed rate of 0.15mm/r.
+Triples: [['Aluminum alloy component', 'material', '6061-T6'], ['Aluminum alloy component', 'machining process', 'CNC milling'], ['CNC milling', 'cutting tool', 'carbide end mill'], ['CNC milling', 'spindle speed', '8000rpm']]
+Relations: ['material', 'machining process', 'cutting tool', 'spindle speed']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-position played on team / speciality: The subject entity plays the specified position or has the specified speciality on the team.
-sport: The subject entity is associated with the sport specified by the object entity.
-part of: The subject entity is a part of or belongs to the object entity.
+material: The subject component is made of the specified material.
+machining process: The subject component is processed using the specified machining method.
+cutting tool: The subject process uses the specified cutting tool for material removal.
+spindle speed: The rotational speed of the spindle during the machining process.
 
 Example 5:
-Text: Ondel-ondel is a large puppet figure featured in Betawi folk performance of Jakarta, Indonesia.
-Triples: [['Betawi', 'location', 'Jakarta'], ['Jakarta', 'country', 'Indonesia'], ['Indonesia', 'ethnic group', 'Betawi'], ['Indonesia', 'contains administrative territorial entity', 'Jakarta']]
-Relations: ['location', 'country', 'ethnic group', 'contains administrative territorial entity']
+Text: Cast iron base HT250 needs surface grinding operation using aluminum oxide wheel with surface roughness requirement Ra0.8.
+Triples: [['Cast iron base', 'material', 'HT250'], ['Cast iron base', 'machining process', 'surface grinding'], ['surface grinding', 'grinding wheel', 'aluminum oxide wheel'], ['Cast iron base', 'surface roughness requirement', 'Ra0.8']]
+Relations: ['material', 'machining process', 'grinding wheel', 'surface roughness requirement']
 Answer:
-location: The subject entity is located in the place specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
-ethnic group: The subject entity contains the ethnic group specified by the object entity.
-contains administrative territorial entity: The subject entity contains the administrative territorial entity specified by the object entity.
+material: The subject component is made of the specified material type.
+machining process: The subject component undergoes the specified manufacturing process.
+grinding wheel: The subject grinding process uses the specified type of grinding wheel.
+surface roughness requirement: The subject component must achieve the specified surface quality standard.
 
 Example 6:
-Text: George M. Coombs (November 27, 1851 – March 27, 1909) was an American architect from Maine.
-Triples: [['George M. Coombs', 'date of birth', 'November 27, 1851'], ['George M. Coombs', 'date of death', 'March 27, 1909'], ['American', 'contains administrative territorial entity', 'Maine'], ['Maine', 'country', 'American']]
-Relations: ['date of birth', 'date of death', 'contains administrative territorial entity', 'country']
+Text: Steel shaft 45# undergoes heat treatment to achieve hardness HRC30-35 before precision turning operation with cutting depth 0.5mm.
+Triples: [['Steel shaft', 'material', '45#'], ['Steel shaft', 'heat treatment', 'hardness HRC30-35'], ['Steel shaft', 'machining process', 'precision turning'], ['precision turning', 'cutting depth', '0.5mm']]
+Relations: ['material', 'heat treatment', 'machining process', 'cutting depth']
 Answer:
-date of birth: The subject entity was born on the date specified by the object entity.
-date of death: The subject entity died on the date specified by the object entity.
-contains administrative territorial entity: The subject entity contains or is a part of the administrative territorial entity specified by the object entity.
-country: The subject entity is located in the country specified by the object entity.
+material: The subject component is made of the specified steel grade.
+heat treatment: The subject component undergoes thermal processing to achieve specified properties.
+machining process: The subject component is processed using the specified precision machining method.
+cutting depth: The depth of material removed during each cutting pass in the machining process.
